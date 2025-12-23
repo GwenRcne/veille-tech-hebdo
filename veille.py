@@ -108,7 +108,7 @@ def resumer_texte(texte):
         return texte[:200] + "..."
 
 def generer_html(articles, nom_site, numero_semaine):
-    """Génère la page HTML avec historique des 4 dernières semaines"""
+    """Génère la page HTML avec historique COMPLET (toutes les semaines)"""
     
     # Charger l'historique existant
     historique = charger_historique()
@@ -124,8 +124,8 @@ def generer_html(articles, nom_site, numero_semaine):
     # Ajouter au début de la liste
     historique.insert(0, nouvelle_semaine)
     
-    # Garder seulement les 4 dernières semaines
-    historique = historique[:4]
+    # PAS DE LIMITE ! On garde tout l'historique
+    # historique = historique[:4]  ← LIGNE SUPPRIMÉE
     
     # Sauvegarder l'historique
     sauvegarder_historique(historique)
@@ -163,13 +163,15 @@ def generer_html(articles, nom_site, numero_semaine):
         """
     
     date_maj = datetime.now().strftime("%d/%m/%Y à %H:%M")
+    nb_semaines = len(historique)
+    nb_articles_total = sum(len(s['articles']) for s in historique)
     
     html = f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veille Tech Hebdo - 4 dernières semaines</title>
+    <title>Veille Tech Hebdo - Archive Complète</title>
     <style>
         * {{
             margin: 0;
@@ -211,6 +213,32 @@ def generer_html(articles, nom_site, numero_semaine):
         .header .subtitle {{
             font-size: 1.1em;
             opacity: 0.95;
+            margin-top: 5px;
+        }}
+        
+        .stats-bar {{
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }}
+        
+        .stat-item {{
+            text-align: center;
+        }}
+        
+        .stat-number {{
+            font-size: 2em;
+            font-weight: bold;
+        }}
+        
+        .stat-label {{
+            font-size: 0.9em;
+            opacity: 0.9;
         }}
         
         .content {{
@@ -332,12 +360,38 @@ def generer_html(articles, nom_site, numero_semaine):
             color: #666;
         }}
         
+        .back-to-top {{
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #667eea;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+            font-size: 1.5em;
+        }}
+        
+        .back-to-top:hover {{
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }}
+        
         @media (max-width: 768px) {{
             .header h1 {{
                 font-size: 1.8em;
             }}
             .article-card {{
                 padding: 20px;
+            }}
+            .stats-bar {{
+                gap: 20px;
             }}
         }}
     </style>
@@ -346,7 +400,19 @@ def generer_html(articles, nom_site, numero_semaine):
     <div class="container">
         <div class="header">
             <h1>🚀 Veille Tech Hebdo</h1>
-            <p class="subtitle">2 articles par semaine • 1 site différent • 4 dernières semaines</p>
+            <p class="subtitle">2 articles par semaine • 1 site différent</p>
+            <p class="subtitle">📚 Archive complète depuis le début</p>
+            
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-number">{nb_semaines}</div>
+                    <div class="stat-label">Semaines</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">{nb_articles_total}</div>
+                    <div class="stat-label">Articles</div>
+                </div>
+            </div>
         </div>
         
         <div class="content">
@@ -356,7 +422,12 @@ def generer_html(articles, nom_site, numero_semaine):
         <div class="footer">
             <p>🤖 Mise à jour automatique le {date_maj}</p>
             <p>📅 Chaque lundi, un nouveau site est analysé !</p>
+            <p style="margin-top: 10px; font-size: 0.9em; color: #999;">Archive permanente • Tous les articles sont conservés</p>
         </div>
+    </div>
+    
+    <div class="back-to-top" onclick="window.scrollTo({{top: 0, behavior: 'smooth'}})">
+        ↑
     </div>
 </body>
 </html>"""
