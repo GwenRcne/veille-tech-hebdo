@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veille Tech Hebdo - 4 dernières semaines</title>
+    <title>Veille Tech Hebdo - Archive Complète</title>
     <style>
         * {
             margin: 0;
@@ -45,6 +45,32 @@
         .header .subtitle {
             font-size: 1.1em;
             opacity: 0.95;
+            margin-top: 5px;
+        }
+        
+        .stats-bar {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
         }
         
         .content {
@@ -166,12 +192,38 @@
             color: #666;
         }
         
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #667eea;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+            font-size: 1.5em;
+        }
+        
+        .back-to-top:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 1.8em;
             }
             .article-card {
                 padding: 20px;
+            }
+            .stats-bar {
+                gap: 20px;
             }
         }
     </style>
@@ -180,7 +232,19 @@
     <div class="container">
         <div class="header">
             <h1>🚀 Veille Tech Hebdo</h1>
-            <p class="subtitle">2 articles par semaine • 1 site différent • 4 dernières semaines</p>
+            <p class="subtitle">2 articles par semaine • 1 site différent</p>
+            <p class="subtitle">📚 Archive complète depuis le début</p>
+            
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Semaines</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Articles</div>
+                </div>
+            </div>
         </div>
         
         <div class="content">
@@ -188,6 +252,36 @@
         <div class="week-section">
             <div class="week-header">
                 <h2>📅 Semaine 52 - 23/12/2025 <span style="background: #ff6b6b; color: white; padding: 4px 12px; border-radius: 12px; font-size: 0.8em; margin-left: 10px;">✨ NOUVELLE</span></h2>
+                <div class="week-source">📡 Source : L'Usine Digitale</div>
+            </div>
+            <div class="articles-grid">
+                
+            <article class="article-card">
+                <div class="article-number">#1</div>
+                <h3 class="article-title">
+                    <a href="https://www.usine-digitale.fr/intelligence-artificielle/vehicule-autonome/volkswagen-accelere-dans-la-conduite-autonome-avec-genurban-un-vehicule-experimental-sans-volant-ni-pedales.KBC6O76RBZALVEEO5DVMVHESDA.html" target="_blank">Volkswagen accélère dans la conduite autonome avec Gen.Urban, un véhicule expérimental sans volant ni pédales</a>
+                </h3>
+                <p class="article-date">📅 Tue, 23 Dec 2025 16:55:16 +0000</p>
+                <div class="article-summary">Volkswagen accélère dans la conduite autonome avec Gen.Urban, un véhicule expérimental sans volant ni pédales. ...</div>
+                <a href="https://www.usine-digitale.fr/intelligence-artificielle/vehicule-autonome/volkswagen-accelere-dans-la-conduite-autonome-avec-genurban-un-vehicule-experimental-sans-volant-ni-pedales.KBC6O76RBZALVEEO5DVMVHESDA.html" target="_blank" class="read-more">Lire l'article complet →</a>
+            </article>
+            
+            <article class="article-card">
+                <div class="article-number">#2</div>
+                <h3 class="article-title">
+                    <a href="https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/eurollm-22b-le-modele-open-source-porte-par-un-consortium-dacteurs-europeens.JFLFB5EDDBBOTNGRUAXGHIOB7Q.html" target="_blank">EuroLLM-22B, le modèle open source porté par un consortium d’acteurs européens</a>
+                </h3>
+                <p class="article-date">📅 Tue, 23 Dec 2025 15:56:44 +0000</p>
+                <div class="article-summary">EuroLLM-22B, le modèle open source porté par un consortium d’acteurs européens. ...</div>
+                <a href="https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/eurollm-22b-le-modele-open-source-porte-par-un-consortium-dacteurs-europeens.JFLFB5EDDBBOTNGRUAXGHIOB7Q.html" target="_blank" class="read-more">Lire l'article complet →</a>
+            </article>
+            
+            </div>
+        </div>
+        
+        <div class="week-section">
+            <div class="week-header">
+                <h2>📅 Semaine 52 - 23/12/2025 </h2>
                 <div class="week-source">📡 Source : JDN : Derniers contenus</div>
             </div>
             <div class="articles-grid">
@@ -218,9 +312,14 @@
         </div>
         
         <div class="footer">
-            <p>🤖 Mise à jour automatique le 23/12/2025 à 12:07</p>
+            <p>🤖 Mise à jour automatique le 23/12/2025 à 17:54</p>
             <p>📅 Chaque lundi, un nouveau site est analysé !</p>
+            <p style="margin-top: 10px; font-size: 0.9em; color: #999;">Archive permanente • Tous les articles sont conservés</p>
         </div>
+    </div>
+    
+    <div class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        ↑
     </div>
 </body>
 </html>

@@ -1,6 +1,27 @@
 [
   {
     "numero_semaine": 52,
+    "nom_site": "L'Usine Digitale",
+    "date_maj": "23/12/2025",
+    "articles": [
+      {
+        "titre": "Volkswagen accélère dans la conduite autonome avec Gen.Urban, un véhicule expérimental sans volant ni pédales",
+        "lien": "https://www.usine-digitale.fr/intelligence-artificielle/vehicule-autonome/volkswagen-accelere-dans-la-conduite-autonome-avec-genurban-un-vehicule-experimental-sans-volant-ni-pedales.KBC6O76RBZALVEEO5DVMVHESDA.html",
+        "description": "",
+        "date": "Tue, 23 Dec 2025 16:55:16 +0000",
+        "resume": "Volkswagen accélère dans la conduite autonome avec Gen.Urban, un véhicule expérimental sans volant ni pédales. ..."
+      },
+      {
+        "titre": "EuroLLM-22B, le modèle open source porté par un consortium d’acteurs européens",
+        "lien": "https://www.usine-digitale.fr/intelligence-artificielle/ia-generative/eurollm-22b-le-modele-open-source-porte-par-un-consortium-dacteurs-europeens.JFLFB5EDDBBOTNGRUAXGHIOB7Q.html",
+        "description": "",
+        "date": "Tue, 23 Dec 2025 15:56:44 +0000",
+        "resume": "EuroLLM-22B, le modèle open source porté par un consortium d’acteurs européens. ..."
+      }
+    ]
+  },
+  {
+    "numero_semaine": 52,
     "nom_site": "JDN : Derniers contenus",
     "date_maj": "23/12/2025",
     "articles": [
