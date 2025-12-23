@@ -3,54 +3,431 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veille Tech Hebdo - En cours de configuration</title>
+    <title>Veille Tech Hebdo - Semaine 52</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header .week-info {
+            font-size: 1.2em;
+            opacity: 0.95;
+            margin-top: 10px;
+        }
+        
+        .header .site-name {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 8px 20px;
+            border-radius: 25px;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .article-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            position: relative;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .article-number {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #667eea;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0;
-            padding: 20px;
+            font-weight: bold;
+            font-size: 1.1em;
         }
-        .container {
-            background: white;
-            padding: 60px 40px;
-            border-radius: 20px;
-            text-align: center;
-            max-width: 600px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        
+        .article-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            padding-right: 60px;
         }
-        h1 {
+        
+        .article-title a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .article-title a:hover {
             color: #667eea;
-            font-size: 2.5em;
-            margin-bottom: 20px;
         }
-        p {
-            color: #666;
-            font-size: 1.2em;
-            line-height: 1.6;
+        
+        .article-date {
+            color: #7f8c8d;
+            font-size: 0.9em;
             margin-bottom: 15px;
         }
-        .loading {
-            font-size: 3em;
-            animation: spin 2s linear infinite;
+        
+        .article-summary {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-size: 1.05em;
         }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+        
+        .read-more {
+            display: inline-block;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            padding: 8px 16px;
+            border-radius: 8px;
+        }
+        
+        .read-more:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .stat-box {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            .article-card {
+                padding: 20px;
+            }
+            .article-title {
+                font-size: 1.2em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="loading">⚙️</div>
-        <h1>Configuration en cours</h1>
-        <p>Votre veille technologique hebdomadaire se met en place...</p>
-        <p>La première exécution aura lieu automatiquement lundi prochain !</p>
-        <p><small>Vous pouvez aussi lancer un test manuel dans GitHub Actions.</small></p>
+        <div class="header">
+            <h1>🚀 Veille Tech Hebdo</h1>
+            <div class="week-info">Semaine 52 - December 2025</div>
+            <div class="site-name">📡 Source : Les news de Korben</div>
+        </div>
+        
+        <div class="content">
+            <div class="intro">
+                <p>Voici les 20 articles tech les plus intéressants de la semaine,<br>
+                résumés automatiquement par intelligence artificielle.</p>
+            </div>
+            
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="stat-number">20</div>
+                    <div class="stat-label">Articles</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">52</div>
+                    <div class="stat-label">Semaine</div>
+                </div>
+            </div>
+            
+            
+        <article class="article-card">
+            <div class="article-number">#1</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/compte-apple-bloque-donnees-icloud-backup.html" target="_blank">25 ans de fidélité Apple et paf, compte bloqué sans explication</a>
+            </h2>
+            <p class="article-date">📅 Mon, 22 Dec 2025 12:31:32 +0100</p>
+            <div class="article-summary">25 ans de fidélité Apple et paf, compte bloqué sans explication. <p><strong>Edit du 22/12/2025 :</strong> Bonne nouvelle ! Le développeur a finalement récupéré son compte. Un employé d'Apple Executive...</div>
+            <a href="https://korben.info/compte-apple-bloque-donnees-icloud-backup.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#2</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/winfindr-recherche-fichiers-windows-pdf-registre.html" target="_blank">WinFindr - Un outil de recherche Windows qui trouve tout ce que vous cherchez</a>
+            </h2>
+            <p class="article-date">📅 Mon, 22 Dec 2025 09:00:00 +0100</p>
+            <div class="article-summary">WinFindr - Un outil de recherche Windows qui trouve tout ce que vous cherchez. <p>Tout le monde n'a pas la chance d'avoir un moteur de recherche
+<a href="https://korben.info/recherche/">aussi rapide q...</div>
+            <a href="https://korben.info/winfindr-recherche-fichiers-windows-pdf-registre.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#3</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/nintendo-switch-2-drm-brick-ban-console-fsf.html" target="_blank">Nintendo peut bannir votre Switch 2 à vie et vous devrez les supplier de vous pardonner</a>
+            </h2>
+            <p class="article-date">📅 Sun, 21 Dec 2025 23:18:06 +0100</p>
+            <div class="article-summary">Nintendo peut bannir votre Switch 2 à vie et vous devrez les supplier de vous pardonner. <p>Y'a des fois où je me dis que certaines entreprises font vraiment tout pour qu'on les déteste. Et Nintendo v...</div>
+            <a href="https://korben.info/nintendo-switch-2-drm-brick-ban-console-fsf.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#4</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/clair-obscur-expedition-33-disqualifie-indie-game.html" target="_blank">Clair Obscur perd son prix à cause de la vilaine méchante pas belle IA générative</a>
+            </h2>
+            <p class="article-date">📅 Sun, 21 Dec 2025 22:46:02 +0100</p>
+            <div class="article-summary">Clair Obscur perd son prix à cause de la vilaine méchante pas belle IA générative. <p><strong>Clair Obscur: Expedition 33</strong>, c'est le jeu français qui a explosé tous les compteurs aux Game Awar...</div>
+            <a href="https://korben.info/clair-obscur-expedition-33-disqualifie-indie-game.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#5</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/leafkvm-kvm-wifi-open-source-hdmi.html" target="_blank">LeafKVM - Le petit boîtier qui vous donne le contrôle total sur n'importe quelle machine</a>
+            </h2>
+            <p class="article-date">📅 Sun, 21 Dec 2025 17:57:26 +0100</p>
+            <div class="article-summary">LeafKVM - Le petit boîtier qui vous donne le contrôle total sur n'importe quelle machine. <p>Vous avez un serveur dans un placard, un NAS chez vos parents, ou une machine headless qui fait des siennes...</div>
+            <a href="https://korben.info/leafkvm-kvm-wifi-open-source-hdmi.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#6</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/ceni-chine-reseau-innovation-arpanet.html" target="_blank">CENI - La Chine vient de mettre en service l'héritier d'ARPANET</a>
+            </h2>
+            <p class="article-date">📅 Sun, 21 Dec 2025 17:11:24 +0100</p>
+            <div class="article-summary">CENI - La Chine vient de mettre en service l'héritier d'ARPANET. <p>Vous vous souvenez d'<strong>ARPANET</strong>, ce réseau militaire américain des années 60-70 qui a donné naissance à Internet ? En ...</div>
+            <a href="https://korben.info/ceni-chine-reseau-innovation-arpanet.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#7</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/faille-uefi-dma-cartes-meres-securite.html" target="_blank">Faille UEFI critique - Votre carte mère ASUS, Gigabyte, MSI ou ASRock est peut-être vulnérable</a>
+            </h2>
+            <p class="article-date">📅 Sun, 21 Dec 2025 14:47:45 +0100</p>
+            <div class="article-summary">Faille UEFI critique - Votre carte mère ASUS, Gigabyte, MSI ou ASRock est peut-être vulnérable. <p>Vous pensiez que votre PC était blindé avec toutes vos protections activées ? Et bien ça c'était avan...</div>
+            <a href="https://korben.info/faille-uefi-dma-cartes-meres-securite.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#8</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/annas-archive-backup-spotify-musique-preservation.html" target="_blank">Anna's Archive vient de sauvegarder la totalité de Spotify</a>
+            </h2>
+            <p class="article-date">📅 Sun, 21 Dec 2025 10:25:41 +0100</p>
+            <div class="article-summary">Anna's Archive vient de sauvegarder la totalité de Spotify. <p>Vous connaissez
+<a href="https://fr.annas-archive.org/">Anna's Archive</a>
+, cette bibliothèque pirate qui sauvegarde tous les livres et ...</div>
+            <a href="https://korben.info/annas-archive-backup-spotify-musique-preservation.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#9</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/obs-studio-32-metal-renderer-macos-streaming.html" target="_blank">OBS Studio 32 débarque avec un tout nouveau moteur de rendu pour macOS</a>
+            </h2>
+            <p class="article-date">📅 Sun, 21 Dec 2025 10:07:32 +0100</p>
+            <div class="article-summary">OBS Studio 32 débarque avec un tout nouveau moteur de rendu pour macOS. <p>Passer d'OpenGL à Metal, c'était visiblement pas une mince affaire pour l'équipe d'OBS. La techno d'Apple est sortie y'a 10 a...</div>
+            <a href="https://korben.info/obs-studio-32-metal-renderer-macos-streaming.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#10</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/keonne-rodriguez-samourai-wallet-prison-bitcoin-pr.html" target="_blank">5 ans de prison pour avoir codé un portefeuille Bitcoin un peu trop respectueux de la vie privée</a>
+            </h2>
+            <p class="article-date">📅 Sun, 21 Dec 2025 09:35:49 +0100</p>
+            <div class="article-summary">5 ans de prison pour avoir codé un portefeuille Bitcoin un peu trop respectueux de la vie privée. <p>Keonne Rodriguez, le développeur derrière <strong>Samourai Wallet</strong>, vient de se prendre 5 a...</div>
+            <a href="https://korben.info/keonne-rodriguez-samourai-wallet-prison-bitcoin-pr.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#11</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/mac-studio-rdma-thunderbolt-5-cluster-ia.html" target="_blank">1,5 To de VRAM sur un Mac Studio - Le RDMA Thunderbolt 5 qui change la donne</a>
+            </h2>
+            <p class="article-date">📅 Sun, 21 Dec 2025 09:04:25 +0100</p>
+            <div class="article-summary">1,5 To de VRAM sur un Mac Studio - Le RDMA Thunderbolt 5 qui change la donne. <p>Vous rêvez de faire tourner des modèles d'IA de 600 milliards de paramètres sur votre bureau sans avoir à vendre vos en...</div>
+            <a href="https://korben.info/mac-studio-rdma-thunderbolt-5-cluster-ia.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#12</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/futo-voice-input-android-whisper-hors-ligne.html" target="_blank">FUTO Voice Input - L'appli de dictée vocale qui garde tout sur votre téléphone</a>
+            </h2>
+            <p class="article-date">📅 Sun, 21 Dec 2025 09:00:00 +0100</p>
+            <div class="article-summary">FUTO Voice Input - L'appli de dictée vocale qui garde tout sur votre téléphone. <p>Je sais pas vous, mais moi dès que j'ai un truc à écrire sur mon smartphone, je le dicte. Et que je sois sous Android...</div>
+            <a href="https://korben.info/futo-voice-input-android-whisper-hors-ligne.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#13</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/tp-link-tapo-c200-failles-securite-cles-https-buff.html" target="_blank">Quand une caméra de surveillance TP-Link laisse traîner ses clés HTTPS partout...</a>
+            </h2>
+            <p class="article-date">📅 Sat, 20 Dec 2025 19:04:57 +0100</p>
+            <div class="article-summary">Quand une caméra de surveillance TP-Link laisse traîner ses clés HTTPS partout.... <p>Vous avez peut-être une caméra <strong>Tapo C200</strong> qui tourne chez vous pour surveiller le chat, le bébé ou...</div>
+            <a href="https://korben.info/tp-link-tapo-c200-failles-securite-cles-https-buff.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#14</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/boston-dynamics-atlas-ia-manufacturing.html" target="_blank">Comment Boston Dynamics compte construire un cerveau pour Atlas</a>
+            </h2>
+            <p class="article-date">📅 Sat, 20 Dec 2025 08:38:08 +0100</p>
+            <div class="article-summary">Comment Boston Dynamics compte construire un cerveau pour Atlas. <p>Boston Dynamics que vous connaissez tous pour ses chiens robots tueurs de la mort, vient de sortir une vidéo de 40 minutes. Pas de s...</div>
+            <a href="https://korben.info/boston-dynamics-atlas-ia-manufacturing.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#15</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/tunnl-tunnel-ssh-localhost-internet-ngrok.html" target="_blank">Tunnl.gg - Exposez votre localhost en une seule commande SSH</a>
+            </h2>
+            <p class="article-date">📅 Fri, 19 Dec 2025 16:00:00 +0100</p>
+            <div class="article-summary">Tunnl.gg - Exposez votre localhost en une seule commande SSH. <p>Vous développez un truc en local et vous avez besoin de le montrer à quelqu'un au travers d'Internet, genre pour tester un webhook, fai...</div>
+            <a href="https://korben.info/tunnl-tunnel-ssh-localhost-internet-ngrok.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#16</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/seo-ia-contenu-authentique-referencement-2025.html" target="_blank">Pourquoi mon anti-SEO va finir par payer grâce à l'IA</a>
+            </h2>
+            <p class="article-date">📅 Fri, 19 Dec 2025 15:00:00 +0100</p>
+            <div class="article-summary">Pourquoi mon anti-SEO va finir par payer grâce à l'IA. <p>Vous savez quoi ? Pendant 20 ans, j'ai fait <strong>tout ce qu'il ne fallait pas faire en matière de référencement</strong>. Pas de stratégie ...</div>
+            <a href="https://korben.info/seo-ia-contenu-authentique-referencement-2025.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#17</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/anker-prime-160w-minuscule-ecran-tactile-ecran-cest-le-chargeur-gan-usb-c-le-plus-dingue-que-jai-eu-loccasion-de-tester.html" target="_blank">Anker Prime 160W : minuscule, écran tactile, écran.... c'est le chargeur GaN USB-C le plus dingue que j'ai eu l'occasion de tester</a>
+            </h2>
+            <p class="article-date">📅 Fri, 19 Dec 2025 14:30:50 +0100</p>
+            <div class="article-summary">Anker Prime 160W : minuscule, écran tactile, écran.... c'est le chargeur GaN USB-C le plus dingue que j'ai eu l'occasion de tester. <p>– Article invité, rédigé par Vincent Lautier, contient des liens ...</div>
+            <a href="https://korben.info/anker-prime-160w-minuscule-ecran-tactile-ecran-cest-le-chargeur-gan-usb-c-le-plus-dingue-que-jai-eu-loccasion-de-tester.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#18</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/mephistomail-email-jetable-temporaire-anonyme.html" target="_blank">MephistoMail - L'email jetable qui ne garde aucune trace de vous</a>
+            </h2>
+            <p class="article-date">📅 Fri, 19 Dec 2025 14:00:00 +0100</p>
+            <div class="article-summary">MephistoMail - L'email jetable qui ne garde aucune trace de vous. <p>Vous voulez tester un service, télécharger un truc, ou vous inscrire sur un site que vous n'utiliserez probablement qu'une fois et ...</div>
+            <a href="https://korben.info/mephistomail-email-jetable-temporaire-anonyme.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#19</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/detection-nids-poule-yolov8-ia-open-source.html" target="_blank">Un projet open source qui détecte les nids-de-poule</a>
+            </h2>
+            <p class="article-date">📅 Fri, 19 Dec 2025 13:00:00 +0100</p>
+            <div class="article-summary">Un projet open source qui détecte les nids-de-poule. <p>Vous savez que depuis quelques années, des startups équipent les camions poubelle et les bus de caméras IA pour cartographier automatiquement l'...</div>
+            <a href="https://korben.info/detection-nids-poule-yolov8-ia-open-source.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        <article class="article-card">
+            <div class="article-number">#20</div>
+            <h2 class="article-title">
+                <a href="https://korben.info/stunt-car-racer-remake-pc-amiga.html" target="_blank">Stunt Car Racer Remake - Le jeu culte de Geoff Crammond revit grâce aux fans</a>
+            </h2>
+            <p class="article-date">📅 Fri, 19 Dec 2025 12:00:00 +0100</p>
+            <div class="article-summary">Stunt Car Racer Remake - Le jeu culte de Geoff Crammond revit grâce aux fans. <p>Qui se rappelle de <strong>Stunt Car Racer</strong> ?</p>
+<p>C'était un jeu de course complètement barré sur Amiga où o...</div>
+            <a href="https://korben.info/stunt-car-racer-remake-pc-amiga.html" target="_blank" class="read-more">Lire l'article complet →</a>
+        </article>
+        
+        </div>
+        
+        <div class="footer">
+            <p>🤖 Mise à jour automatique le 23/12/2025 à 00:34</p>
+            <p>Prochain site la semaine prochaine !</p>
+        </div>
     </div>
 </body>
 </html>
