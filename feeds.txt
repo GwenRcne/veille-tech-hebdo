@@ -1,6 +1,6 @@
-https://korben.info/feed
 https://www.lemondeinformatique.fr/flux-rss/thematique/rss.xml
-https://www.zdnet.fr/feeds/rss/actualites/
-https://www.01net.com/rss/info/
 https://blog.cloudflare.com/rss/
 https://github.blog/feed/
+https://www.silicon.fr/feed
+https://www.journaldunet.com/rss/
+https://www.usine-digitale.fr/rss
