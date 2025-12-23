@@ -361,7 +361,7 @@ def main():
     print(f"📅 Semaine n°{numero_semaine}\n")
     
     # Récupérer les articles de la semaine
-    articles, nom_site = recuperer_articles_semaine(flux_actuel, jours=7)
+    articles, nom_site = recuperer_articles_semaine(flux_actuel, jours=7, max_articles=2)
     print(f"\n📰 {len(articles)} articles trouvés\n")
     
     if not articles:
