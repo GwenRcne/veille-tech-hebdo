@@ -33,7 +33,7 @@ def sauvegarder_etat(index):
     with open(STATE_FILE, 'w', encoding='utf-8') as f:
         json.dump(etat, f, indent=2)
 
-def recuperer_articles_semaine(flux_url, jours=7, max_articles=2):):
+def recuperer_articles_semaine(flux_url, jours=7, max_articles=2):
     """Récupère les articles de la semaine"""
     articles = []
     date_limite = datetime.now() - timedelta(days=jours)
