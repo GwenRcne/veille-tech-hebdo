@@ -34,7 +34,7 @@ def sauvegarder_etat(index):
         json.dump(etat, f, indent=2)
 
 def recuperer_articles_semaine(flux_url, jours=7, max_articles=2):
-    """Récupère les articles de la semaine"""
+    """Récupère les 2 meilleurs articles de la semaine"""
     articles = []
     date_limite = datetime.now() - timedelta(days=jours)
     
@@ -43,7 +43,9 @@ def recuperer_articles_semaine(flux_url, jours=7, max_articles=2):
         flux = feedparser.parse(flux_url)
         nom_site = flux.feed.get('title', flux_url)
         
-        for entree in flux.entries[:20]:  # Limiter à 20 articles max
+        # Récupérer tous les articles récents
+        articles_candidats = []
+        for entree in flux.entries[:30]:  # Examiner les 30 derniers
             if hasattr(entree, 'published_parsed'):
                 date_pub = datetime(*entree.published_parsed[:6])
                 if date_pub < date_limite:
@@ -55,8 +57,15 @@ def recuperer_articles_semaine(flux_url, jours=7, max_articles=2):
                 'description': entree.get('summary', '')[:800],
                 'date': entree.get('published', 'Date inconnue')
             }
-            articles.append(article)
+            articles_candidats.append(article)
+        
+        # Ne garder que les 2 plus récents (LIGNE IMPORTANTE !)
+        articles = articles_candidats[:max_articles]
+        
+        for article in articles:
             print(f"  ✅ {article['titre'][:60]}...")
+        
+        print(f"  📊 {len(articles)} articles sélectionnés sur {len(articles_candidats)} disponibles")
         
         return articles, nom_site
     
