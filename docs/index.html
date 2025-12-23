@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veille Tech Hebdo - Semaine 52</title>
+    <title>Veille Tech Hebdo - 4 dernières semaines</title>
     <style>
         * {
             margin: 0;
@@ -21,7 +21,7 @@
         }
         
         .container {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
             background: white;
             border-radius: 20px;
@@ -42,37 +42,54 @@
             text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
         }
         
-        .header .week-info {
-            font-size: 1.2em;
+        .header .subtitle {
+            font-size: 1.1em;
             opacity: 0.95;
-            margin-top: 10px;
-        }
-        
-        .header .site-name {
-            display: inline-block;
-            background: rgba(255,255,255,0.2);
-            padding: 8px 20px;
-            border-radius: 25px;
-            margin-top: 15px;
-            font-weight: 500;
         }
         
         .content {
             padding: 40px 30px;
         }
         
-        .intro {
+        .week-section {
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .week-section:last-child {
+            border-bottom: none;
+        }
+        
+        .week-header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-radius: 15px;
+        }
+        
+        .week-header h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        
+        .week-source {
             color: #666;
             font-size: 1.1em;
+            font-weight: 500;
+        }
+        
+        .articles-grid {
+            display: grid;
+            gap: 25px;
         }
         
         .article-card {
             background: #f8f9fa;
             border-radius: 15px;
-            padding: 30px;
-            margin-bottom: 30px;
+            padding: 25px;
             position: relative;
             border-left: 5px solid #667eea;
             transition: transform 0.3s, box-shadow 0.3s;
@@ -85,25 +102,24 @@
         
         .article-number {
             position: absolute;
-            top: 20px;
-            right: 20px;
+            top: 15px;
+            right: 15px;
             background: #667eea;
             color: white;
-            width: 40px;
-            height: 40px;
+            width: 35px;
+            height: 35px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: bold;
-            font-size: 1.1em;
         }
         
         .article-title {
-            font-size: 1.5em;
+            font-size: 1.3em;
             margin-bottom: 10px;
             color: #2c3e50;
-            padding-right: 60px;
+            padding-right: 50px;
         }
         
         .article-title a {
@@ -119,14 +135,13 @@
         .article-date {
             color: #7f8c8d;
             font-size: 0.9em;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
         
         .article-summary {
             color: #555;
             line-height: 1.8;
-            margin-bottom: 20px;
-            font-size: 1.05em;
+            margin-bottom: 15px;
         }
         
         .read-more {
@@ -135,8 +150,8 @@
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s;
-            padding: 8px 16px;
-            border-radius: 8px;
+            padding: 6px 12px;
+            border-radius: 6px;
         }
         
         .read-more:hover {
@@ -149,34 +164,6 @@
             padding: 30px;
             background: #f8f9fa;
             color: #666;
-            font-size: 0.9em;
-        }
-        
-        .stats {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin: 30px 0;
-            flex-wrap: wrap;
-        }
-        
-        .stat-box {
-            background: white;
-            padding: 20px 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-        
-        .stat-number {
-            font-size: 2em;
-            font-weight: bold;
-            color: #667eea;
-        }
-        
-        .stat-label {
-            color: #666;
-            font-size: 0.9em;
-            margin-top: 5px;
         }
         
         @media (max-width: 768px) {
@@ -186,9 +173,6 @@
             .article-card {
                 padding: 20px;
             }
-            .article-title {
-                font-size: 1.2em;
-            }
         }
     </style>
 </head>
@@ -196,53 +180,46 @@
     <div class="container">
         <div class="header">
             <h1>🚀 Veille Tech Hebdo</h1>
-            <div class="week-info">Semaine 52 - December 2025</div>
-            <div class="site-name">📡 Source : Silicon.fr</div>
+            <p class="subtitle">2 articles par semaine • 1 site différent • 4 dernières semaines</p>
         </div>
         
         <div class="content">
-            <div class="intro">
-                <p>Voici les 2 articles tech les plus intéressants de la semaine,<br>
-                résumés automatiquement par intelligence artificielle.</p>
+            
+        <div class="week-section">
+            <div class="week-header">
+                <h2>📅 Semaine 52 - 23/12/2025 <span style="background: #ff6b6b; color: white; padding: 4px 12px; border-radius: 12px; font-size: 0.8em; margin-left: 10px;">✨ NOUVELLE</span></h2>
+                <div class="week-source">📡 Source : JDN : Derniers contenus</div>
             </div>
+            <div class="articles-grid">
+                
+            <article class="article-card">
+                <div class="article-number">#1</div>
+                <h3 class="article-title">
+                    <a href="https://www.journaldunet.com/intelligence-artificielle/1546871-test/" target="_blank">test</a>
+                </h3>
+                <p class="article-date">📅 Tue, 23 Dec 2025 10:30:15 +0100</p>
+                <div class="article-summary">test. ...</div>
+                <a href="https://www.journaldunet.com/intelligence-artificielle/1546871-test/" target="_blank" class="read-more">Lire l'article complet →</a>
+            </article>
             
-            <div class="stats">
-                <div class="stat-box">
-                    <div class="stat-number">2</div>
-                    <div class="stat-label">Articles</div>
-                </div>
-                <div class="stat-box">
-                    <div class="stat-number">52</div>
-                    <div class="stat-label">Semaine</div>
-                </div>
+            <article class="article-card">
+                <div class="article-number">#2</div>
+                <h3 class="article-title">
+                    <a href="https://www.journaldunet.com/start-up/1546817-le-robots-as-a-service-raas-pour-liberer-l-innovation-sur-les-chantiers/" target="_blank">Le Robots-as-a Service (RaaS) pour libérer l'innovation sur les chantiers</a>
+                </h3>
+                <p class="article-date">📅 Tue, 23 Dec 2025 09:00:03 +0100</p>
+                <div class="article-summary">Le Robots-as-a Service (RaaS) pour libérer l'innovation sur les chantiers. <a href="https://www.journaldunet.com/start-up/1546817-le-robots-as-a-service-raas-pour-liberer-l-innovation-sur-les-chantier...</div>
+                <a href="https://www.journaldunet.com/start-up/1546817-le-robots-as-a-service-raas-pour-liberer-l-innovation-sur-les-chantiers/" target="_blank" class="read-more">Lire l'article complet →</a>
+            </article>
+            
             </div>
-            
-            
-        <article class="article-card">
-            <div class="article-number">#1</div>
-            <h2 class="article-title">
-                <a href="https://www.silicon.fr/business-1367/10-articles-a-lire-pour-preparer-2026-224977" target="_blank">10 articles à lire pour préparer 2026</a>
-            </h2>
-            <p class="article-date">📅 Tue, 23 Dec 2025 11:31:00 +0000</p>
-            <div class="article-summary">10 articles à lire pour préparer 2026. <p>Silicon fait une pause hivernale et vous souhaite de joyeuses fêtes. Pour passer une fin d'année studieuse, la rédaction vous propose une sélection de 10 arti...</div>
-            <a href="https://www.silicon.fr/business-1367/10-articles-a-lire-pour-preparer-2026-224977" target="_blank" class="read-more">Lire l'article complet →</a>
-        </article>
-        
-        <article class="article-card">
-            <div class="article-number">#2</div>
-            <h2 class="article-title">
-                <a href="https://www.silicon.fr/business-1367/google-mise-475-milliards-sur-lenergie-verte-pour-doper-ses-data-centers-ia-224975" target="_blank">Google mise 4,75 milliards $ sur l’énergie verte pour doper ses data centers IA</a>
-            </h2>
-            <p class="article-date">📅 Tue, 23 Dec 2025 10:27:08 +0000</p>
-            <div class="article-summary">Google mise 4,75 milliards $ sur l’énergie verte pour doper ses data centers IA. <p>Alphabet franchit un cap historique en rachetant le spécialiste des énergies renouvelables Intersect Power. Objectif...</div>
-            <a href="https://www.silicon.fr/business-1367/google-mise-475-milliards-sur-lenergie-verte-pour-doper-ses-data-centers-ia-224975" target="_blank" class="read-more">Lire l'article complet →</a>
-        </article>
+        </div>
         
         </div>
         
         <div class="footer">
-            <p>🤖 Mise à jour automatique le 23/12/2025 à 11:59</p>
-            <p>Prochain site la semaine prochaine !</p>
+            <p>🤖 Mise à jour automatique le 23/12/2025 à 12:07</p>
+            <p>📅 Chaque lundi, un nouveau site est analysé !</p>
         </div>
     </div>
 </body>

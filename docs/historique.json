@@ -1,0 +1,23 @@
+[
+  {
+    "numero_semaine": 52,
+    "nom_site": "JDN : Derniers contenus",
+    "date_maj": "23/12/2025",
+    "articles": [
+      {
+        "titre": "test",
+        "lien": "https://www.journaldunet.com/intelligence-artificielle/1546871-test/",
+        "description": "",
+        "date": "Tue, 23 Dec 2025 10:30:15 +0100",
+        "resume": "test. ..."
+      },
+      {
+        "titre": "Le Robots-as-a Service (RaaS) pour libérer l'innovation sur les chantiers",
+        "lien": "https://www.journaldunet.com/start-up/1546817-le-robots-as-a-service-raas-pour-liberer-l-innovation-sur-les-chantiers/",
+        "description": "<a href=\"https://www.journaldunet.com/start-up/1546817-le-robots-as-a-service-raas-pour-liberer-l-innovation-sur-les-chantiers/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/ozBqn0sfL-jVcyoO5ch3quLIL8g=/1280x/smart/673798a4fba24546bcf8b78c04c381f6/user-jdn/39531146-antoine-rennuit.jpg\" vspace=\"0\" /></a>Le Robots-as-a-Service ou RaaS est un modèle à l'usage (de location avec service) qui trouve sa genèse notamment dans la logistique. Analyse d'une tendance de fond qui prend place sur les chantiers.",
+        "date": "Tue, 23 Dec 2025 09:00:03 +0100",
+        "resume": "Le Robots-as-a Service (RaaS) pour libérer l'innovation sur les chantiers. <a href=\"https://www.journaldunet.com/start-up/1546817-le-robots-as-a-service-raas-pour-liberer-l-innovation-sur-les-chantier..."
+      }
+    ]
+  }
+]
