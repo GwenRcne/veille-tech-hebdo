@@ -33,6 +33,22 @@ def sauvegarder_etat(index):
     with open(STATE_FILE, 'w', encoding='utf-8') as f:
         json.dump(etat, f, indent=2)
 
+def charger_historique():
+    """Charge l'historique des semaines précédentes"""
+    historique_file = "docs/historique.json"
+    try:
+        with open(historique_file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except:
+        return []
+
+def sauvegarder_historique(historique):
+    """Sauvegarde l'historique des semaines"""
+    historique_file = "docs/historique.json"
+    os.makedirs("docs", exist_ok=True)
+    with open(historique_file, 'w', encoding='utf-8') as f:
+        json.dump(historique, f, indent=2, ensure_ascii=False)
+
 def recuperer_articles_semaine(flux_url, jours=7, max_articles=2):
     """Récupère les 2 meilleurs articles de la semaine"""
     articles = []
@@ -92,20 +108,58 @@ def resumer_texte(texte):
         return texte[:200] + "..."
 
 def generer_html(articles, nom_site, numero_semaine):
-    """Génère la page HTML"""
+    """Génère la page HTML avec historique des 4 dernières semaines"""
     
-    html_articles = ""
-    for i, article in enumerate(articles, 1):
-        html_articles += f"""
-        <article class="article-card">
-            <div class="article-number">#{i}</div>
-            <h2 class="article-title">
-                <a href="{article['lien']}" target="_blank">{article['titre']}</a>
-            </h2>
-            <p class="article-date">📅 {article['date']}</p>
-            <div class="article-summary">{article['resume']}</div>
-            <a href="{article['lien']}" target="_blank" class="read-more">Lire l'article complet →</a>
-        </article>
+    # Charger l'historique existant
+    historique = charger_historique()
+    
+    # Ajouter les nouveaux articles à l'historique
+    nouvelle_semaine = {
+        'numero_semaine': numero_semaine,
+        'nom_site': nom_site,
+        'date_maj': datetime.now().strftime("%d/%m/%Y"),
+        'articles': articles
+    }
+    
+    # Ajouter au début de la liste
+    historique.insert(0, nouvelle_semaine)
+    
+    # Garder seulement les 4 dernières semaines
+    historique = historique[:4]
+    
+    # Sauvegarder l'historique
+    sauvegarder_historique(historique)
+    
+    # Générer le HTML pour toutes les semaines
+    html_semaines = ""
+    for idx, semaine_data in enumerate(historique):
+        # Badge "NOUVELLE" pour la première semaine
+        badge_nouveau = '<span style="background: #ff6b6b; color: white; padding: 4px 12px; border-radius: 12px; font-size: 0.8em; margin-left: 10px;">✨ NOUVELLE</span>' if idx == 0 else ''
+        
+        html_articles = ""
+        for i, article in enumerate(semaine_data['articles'], 1):
+            html_articles += f"""
+            <article class="article-card">
+                <div class="article-number">#{i}</div>
+                <h3 class="article-title">
+                    <a href="{article['lien']}" target="_blank">{article['titre']}</a>
+                </h3>
+                <p class="article-date">📅 {article['date']}</p>
+                <div class="article-summary">{article['resume']}</div>
+                <a href="{article['lien']}" target="_blank" class="read-more">Lire l'article complet →</a>
+            </article>
+            """
+        
+        html_semaines += f"""
+        <div class="week-section">
+            <div class="week-header">
+                <h2>📅 Semaine {semaine_data['numero_semaine']} - {semaine_data['date_maj']} {badge_nouveau}</h2>
+                <div class="week-source">📡 Source : {semaine_data['nom_site']}</div>
+            </div>
+            <div class="articles-grid">
+                {html_articles}
+            </div>
+        </div>
         """
     
     date_maj = datetime.now().strftime("%d/%m/%Y à %H:%M")
@@ -115,7 +169,7 @@ def generer_html(articles, nom_site, numero_semaine):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veille Tech Hebdo - Semaine {numero_semaine}</title>
+    <title>Veille Tech Hebdo - 4 dernières semaines</title>
     <style>
         * {{
             margin: 0;
@@ -133,7 +187,7 @@ def generer_html(articles, nom_site, numero_semaine):
         }}
         
         .container {{
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
             background: white;
             border-radius: 20px;
@@ -154,37 +208,54 @@ def generer_html(articles, nom_site, numero_semaine):
             text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
         }}
         
-        .header .week-info {{
-            font-size: 1.2em;
+        .header .subtitle {{
+            font-size: 1.1em;
             opacity: 0.95;
-            margin-top: 10px;
-        }}
-        
-        .header .site-name {{
-            display: inline-block;
-            background: rgba(255,255,255,0.2);
-            padding: 8px 20px;
-            border-radius: 25px;
-            margin-top: 15px;
-            font-weight: 500;
         }}
         
         .content {{
             padding: 40px 30px;
         }}
         
-        .intro {{
+        .week-section {{
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #e0e0e0;
+        }}
+        
+        .week-section:last-child {{
+            border-bottom: none;
+        }}
+        
+        .week-header {{
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-radius: 15px;
+        }}
+        
+        .week-header h2 {{
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }}
+        
+        .week-source {{
             color: #666;
             font-size: 1.1em;
+            font-weight: 500;
+        }}
+        
+        .articles-grid {{
+            display: grid;
+            gap: 25px;
         }}
         
         .article-card {{
             background: #f8f9fa;
             border-radius: 15px;
-            padding: 30px;
-            margin-bottom: 30px;
+            padding: 25px;
             position: relative;
             border-left: 5px solid #667eea;
             transition: transform 0.3s, box-shadow 0.3s;
@@ -197,25 +268,24 @@ def generer_html(articles, nom_site, numero_semaine):
         
         .article-number {{
             position: absolute;
-            top: 20px;
-            right: 20px;
+            top: 15px;
+            right: 15px;
             background: #667eea;
             color: white;
-            width: 40px;
-            height: 40px;
+            width: 35px;
+            height: 35px;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: bold;
-            font-size: 1.1em;
         }}
         
         .article-title {{
-            font-size: 1.5em;
+            font-size: 1.3em;
             margin-bottom: 10px;
             color: #2c3e50;
-            padding-right: 60px;
+            padding-right: 50px;
         }}
         
         .article-title a {{
@@ -231,14 +301,13 @@ def generer_html(articles, nom_site, numero_semaine):
         .article-date {{
             color: #7f8c8d;
             font-size: 0.9em;
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }}
         
         .article-summary {{
             color: #555;
             line-height: 1.8;
-            margin-bottom: 20px;
-            font-size: 1.05em;
+            margin-bottom: 15px;
         }}
         
         .read-more {{
@@ -247,8 +316,8 @@ def generer_html(articles, nom_site, numero_semaine):
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s;
-            padding: 8px 16px;
-            border-radius: 8px;
+            padding: 6px 12px;
+            border-radius: 6px;
         }}
         
         .read-more:hover {{
@@ -261,34 +330,6 @@ def generer_html(articles, nom_site, numero_semaine):
             padding: 30px;
             background: #f8f9fa;
             color: #666;
-            font-size: 0.9em;
-        }}
-        
-        .stats {{
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin: 30px 0;
-            flex-wrap: wrap;
-        }}
-        
-        .stat-box {{
-            background: white;
-            padding: 20px 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }}
-        
-        .stat-number {{
-            font-size: 2em;
-            font-weight: bold;
-            color: #667eea;
-        }}
-        
-        .stat-label {{
-            color: #666;
-            font-size: 0.9em;
-            margin-top: 5px;
         }}
         
         @media (max-width: 768px) {{
@@ -298,9 +339,6 @@ def generer_html(articles, nom_site, numero_semaine):
             .article-card {{
                 padding: 20px;
             }}
-            .article-title {{
-                font-size: 1.2em;
-            }}
         }}
     </style>
 </head>
@@ -308,33 +346,16 @@ def generer_html(articles, nom_site, numero_semaine):
     <div class="container">
         <div class="header">
             <h1>🚀 Veille Tech Hebdo</h1>
-            <div class="week-info">Semaine {numero_semaine} - {datetime.now().strftime('%B %Y')}</div>
-            <div class="site-name">📡 Source : {nom_site}</div>
+            <p class="subtitle">2 articles par semaine • 1 site différent • 4 dernières semaines</p>
         </div>
         
         <div class="content">
-            <div class="intro">
-                <p>Voici les {len(articles)} articles tech les plus intéressants de la semaine,<br>
-                résumés automatiquement par intelligence artificielle.</p>
-            </div>
-            
-            <div class="stats">
-                <div class="stat-box">
-                    <div class="stat-number">{len(articles)}</div>
-                    <div class="stat-label">Articles</div>
-                </div>
-                <div class="stat-box">
-                    <div class="stat-number">{numero_semaine}</div>
-                    <div class="stat-label">Semaine</div>
-                </div>
-            </div>
-            
-            {html_articles}
+            {html_semaines}
         </div>
         
         <div class="footer">
             <p>🤖 Mise à jour automatique le {date_maj}</p>
-            <p>Prochain site la semaine prochaine !</p>
+            <p>📅 Chaque lundi, un nouveau site est analysé !</p>
         </div>
     </div>
 </body>
