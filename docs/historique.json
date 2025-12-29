@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 1,
+    "nom_site": "Toutes les actualités",
+    "date_maj": "29/12/2025",
+    "articles": [
+      {
+        "titre": "Nvidia croque Groq pour 20 Md$",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-nvidia%A0croque%A0groq%A0pour-20-md%24%A0-98899.html",
+        "description": "En déboursant près de 20 Md$ selon CNBC pour reprendre les principaux actifs de Groq et s’offrir une licence sur sa technologie (...)",
+        "date": "Date inconnue",
+        "resume": "Nvidia croque Groq pour 20 Md$. En déboursant près de 20 Md$ selon CNBC pour reprendre les principaux actifs de Groq et s’offrir une licence sur sa technologie (...)..."
+      },
+      {
+        "titre": "5 livres pour réfléchir à l'évolution du numérique",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-5-livres-pour-reflechir-a-l-evolution-du-numerique-98897.html",
+        "description": "Qu'il vous manque quelques cadeaux de Noël de dernière minute ou que vous cherchiez l'inspiration dans la lecture pour une fin d'année (...)",
+        "date": "Date inconnue",
+        "resume": "5 livres pour réfléchir à l'évolution du numérique. Qu'il vous manque quelques cadeaux de Noël de dernière minute ou que vous cherchiez l'inspiration dans la lecture pour une fin d'année (...)..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 52,
     "nom_site": "L'Usine Digitale",
     "date_maj": "23/12/2025",
