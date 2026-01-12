@@ -1,5 +1,19 @@
 [
   {
+    "numero_semaine": 3,
+    "nom_site": "The Cloudflare Blog",
+    "date_maj": "12/01/2026",
+    "articles": [
+      {
+        "titre": "A closer look at a BGP anomaly in Venezuela",
+        "lien": "https://blog.cloudflare.com/bgp-route-leak-venezuela/",
+        "description": "There has been speculation about the cause of a BGP anomaly observed in Venezuela on January 2. We take a look at BGP route leaks, and dive into what the data suggests caused the anomaly in question.",
+        "date": "Tue, 06 Jan 2026 08:00:00 GMT",
+        "resume": "A closer look at a BGP anomaly in Venezuela. There has been speculation about the cause of a BGP anomaly observed in Venezuela on January 2. We take a look at BGP route leaks, and dive into what the d..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 1,
     "nom_site": "Toutes les actualités",
     "date_maj": "29/12/2025",
