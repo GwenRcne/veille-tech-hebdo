@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 4,
+    "nom_site": "The GitHub Blog",
+    "date_maj": "19/01/2026",
+    "articles": [
+      {
+        "titre": "Building an agentic memory system for GitHub Copilot",
+        "lien": "https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/",
+        "description": "<p>Copilot’s cross-agent memory system lets agents learn and improve across your development workflow, starting with coding agent, CLI, and code review.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/\">Building an agentic memory system for GitHub Copilot</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+        "date": "Thu, 15 Jan 2026 21:31:10 +0000",
+        "resume": "Building an agentic memory system for GitHub Copilot. <p>Copilot’s cross-agent memory system lets agents learn and improve across your development workflow, starting with coding agent, CLI, and code r..."
+      },
+      {
+        "titre": "When protections outlive their purpose: A lesson on managing defense systems at scale",
+        "lien": "https://github.blog/engineering/infrastructure/when-protections-outlive-their-purpose-a-lesson-on-managing-defense-systems-at-scale/",
+        "description": "<p>User feedback led us to clean up outdated mitigations. See why observability and lifecycle management are critical for defense systems.</p>\n<p>The post <a href=\"https://github.blog/engineering/infrastructure/when-protections-outlive-their-purpose-a-lesson-on-managing-defense-systems-at-scale/\">When protections outlive their purpose: A lesson on managing defense systems at scale</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+        "date": "Thu, 15 Jan 2026 20:54:32 +0000",
+        "resume": "When protections outlive their purpose: A lesson on managing defense systems at scale. <p>User feedback led us to clean up outdated mitigations. See why observability and lifecycle management are crit..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 3,
     "nom_site": "The Cloudflare Blog",
     "date_maj": "12/01/2026",
