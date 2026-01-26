@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 5,
+    "nom_site": "Silicon.fr",
+    "date_maj": "26/01/2026",
+    "articles": [
+      {
+        "titre": "IA : Lenovo mise sur une stratégie multi-LLM",
+        "lien": "https://www.silicon.fr/business-1367/ia-lenovo-mise-sur-une-strategie-multi-llm-225338",
+        "description": "<p>Dans la course à l’intelligence artificielle, Lenovo multiplie les alliances avec les champions des modèles de langage (LLM), de Mistral AI à Alibaba.</p>\n<p>The post <a href=\"https://www.silicon.fr/business-1367/ia-lenovo-mise-sur-une-strategie-multi-llm-225338\">IA : Lenovo mise sur une stratégie multi-LLM</a> appeared first on <a href=\"https://www.silicon.fr\">Silicon.fr</a>.</p>",
+        "date": "Fri, 23 Jan 2026 15:33:14 +0000",
+        "resume": "IA : Lenovo mise sur une stratégie multi-LLM. <p>Dans la course à l’intelligence artificielle, Lenovo multiplie les alliances avec les champions des modèles de langage (LLM), de Mistral AI à Alibaba.<..."
+      },
+      {
+        "titre": "TikTok US : pourquoi Oracle et ses partenaires lâchent 14 milliards $",
+        "lien": "https://www.silicon.fr/business-1367/tiktok-us-pourquoi-oracle-et-ses-partenaires-lachent-14-milliards-225331",
+        "description": "<p>La saga US de TikTok s'achève avec la création d'une joint-venture détenue à 80% par des investisseurs américains et émiratis, tandis que ByteDance conserve 19,9% et le contrôle des activités publicitaires et e-commerce.</p>\n<p>The post <a href=\"https://www.silicon.fr/business-1367/tiktok-us-pourquoi-oracle-et-ses-partenaires-lachent-14-milliards-225331\">TikTok US : pourquoi Oracle et ses partenaires lâchent 14 milliards $</a> appeared first on <a href=\"https://www.silicon.fr\">Silicon.fr</a>.</p>",
+        "date": "Fri, 23 Jan 2026 15:02:01 +0000",
+        "resume": "TikTok US : pourquoi Oracle et ses partenaires lâchent 14 milliards $. <p>La saga US de TikTok s'achève avec la création d'une joint-venture détenue à 80% par des investisseurs américains et émiratis,..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 4,
     "nom_site": "The GitHub Blog",
     "date_maj": "19/01/2026",
