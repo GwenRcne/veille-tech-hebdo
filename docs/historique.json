@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 6,
+    "nom_site": "JDN : Derniers contenus",
+    "date_maj": "02/02/2026",
+    "articles": [
+      {
+        "titre": "Chatbots : les nouveaux chefs d'orchestre des attaques DDoS",
+        "lien": "https://www.journaldunet.com/cybersecurite/1547651-chatbots-les-nouveaux-chefs-d-orchestre-des-attaques-ddos/",
+        "description": "<a href=\"https://www.journaldunet.com/cybersecurite/1547651-chatbots-les-nouveaux-chefs-d-orchestre-des-attaques-ddos/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/3Sc1X51Oprj-fSbxusTf6Dc2d6E=/1280x/smart/bcd568a5909e4b4795eaf6dc1f6510b5/user-jdn/10033560-daniel-crowe.jpg\" vspace=\"0\" /></a>Alors que l'ère de la sécurité réactive s'achève et que celle de la cybercriminalité amplifiée par l'IA commence, seule une défense capable de penser aussi vite qu'elle agit pourra relever le défi.",
+        "date": "Mon, 02 Feb 2026 09:04:45 +0100",
+        "resume": "Chatbots : les nouveaux chefs d'orchestre des attaques DDoS. <a href=\"https://www.journaldunet.com/cybersecurite/1547651-chatbots-les-nouveaux-chefs-d-orchestre-des-attaques-ddos/\"><img align=\"left\" h..."
+      },
+      {
+        "titre": "Sécurité mobile en 2026 : comment la réglementation et l'IA redéfinissent les risques",
+        "lien": "https://www.journaldunet.com/cybersecurite/1547605-securite-mobile-en-2026-comment-la-reglementation-et-l-ia-redefinissent-les-risques/",
+        "description": "<a href=\"https://www.journaldunet.com/cybersecurite/1547605-securite-mobile-en-2026-comment-la-reglementation-et-l-ia-redefinissent-les-risques/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/V_ngC55u-c1aHONANSHrM9nbVcc=/1280x/smart/25a89ac0a2cb489a8223e5b7adb60719/user-jdn/39506309-krishna-vishnubhotla.jpg\" vspace=\"0\" /></a>La sécurité mobile entre dans sa phase la plus décisive. En 2026, deux dynamiques majeures vont converger et redéfinir en profondeur la notion de risque.",
+        "date": "Mon, 02 Feb 2026 09:03:30 +0100",
+        "resume": "Sécurité mobile en 2026 : comment la réglementation et l'IA redéfinissent les risques. <a href=\"https://www.journaldunet.com/cybersecurite/1547605-securite-mobile-en-2026-comment-la-reglementation-et-..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 5,
     "nom_site": "Silicon.fr",
     "date_maj": "26/01/2026",
