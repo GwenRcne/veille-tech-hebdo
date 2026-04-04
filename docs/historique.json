@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 14,
+    "nom_site": "JDN : Derniers contenus",
+    "date_maj": "04/04/2026",
+    "articles": [
+      {
+        "titre": "Robotique mobile : l'autonomie réelle commence (enfin) avec l'IA embarquée",
+        "lien": "https://www.journaldunet.com/intelligence-artificielle/1549201-robotique-mobile-l-autonomie-reelle-commence-enfin-avec-l-ia-embarquee/",
+        "description": "<a href=\"https://www.journaldunet.com/intelligence-artificielle/1549201-robotique-mobile-l-autonomie-reelle-commence-enfin-avec-l-ia-embarquee/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/OL1SKPs5HaNz5rvm5MLVbGQrpGI=/1280x/smart/a587444aa64548a69f71bec86bfef628/user-jdn/39535994-david-gualino.jpg\" vspace=\"0\" /></a>Après l'ère du robot programmé, nous entrons dans celle du robot qui comprend. Et cette révolution est d'abord celle des logiciels d'IA embarquée.",
+        "date": "Sat, 04 Apr 2026 10:52:03 +0200",
+        "resume": "Robotique mobile : l'autonomie réelle commence (enfin) avec l'IA embarquée. <a href=\"https://www.journaldunet.com/intelligence-artificielle/1549201-robotique-mobile-l-autonomie-reelle-commence-enfin-a..."
+      },
+      {
+        "titre": "Les carte bancaires ne marcheront plus : on connaît la date exacte de ce scénario catastrophe de la finance à cause de l'informatique",
+        "lien": "https://www.journaldunet.com/magazine/1549277-bp1-l-epochalypse-approche-et-pourrait-paralyser-banques-satellites-et-transport-le-compte-a-rebours-a-deja-commence/",
+        "description": "<a href=\"https://www.journaldunet.com/magazine/1549277-bp1-l-epochalypse-approche-et-pourrait-paralyser-banques-satellites-et-transport-le-compte-a-rebours-a-deja-commence/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/3D3cRrm9eE4DyII9yJGSh6EOZXk=/1280x/smart/0ed08cf1d9394aabab4565d2df51bf64/ccmcms-jdn/39536120.jpg\" vspace=\"0\" /></a>Un paiement refusé, un crédit mal calculé, un terminal de paiement inutilisable, une banque paralysée... Tout cela à cause d'un problème identifié mais ignoré de tous.",
+        "date": "Sat, 04 Apr 2026 06:50:04 +0200",
+        "resume": "Les carte bancaires ne marcheront plus : on connaît la date exacte de ce scénario catastrophe de la finance à cause de l'informatique. <a href=\"https://www.journaldunet.com/magazine/1549277-bp1-l-epoc..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 6,
     "nom_site": "JDN : Derniers contenus",
     "date_maj": "02/02/2026",
