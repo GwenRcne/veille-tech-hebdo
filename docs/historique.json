@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 15,
+    "nom_site": "Toutes les actualités",
+    "date_maj": "06/04/2026",
+    "articles": [
+      {
+        "titre": "Telex : Cloudflare lance un CMS, Anthropic rachète Coefficient Bio, Google publie les modèles ouverts Gemma 4",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-telex-cloudflare-lance-un-cms-anthropic-rachete-coefficient-bio-google-publie-les-modeles-ouverts-gemma-4-99832.html",
+        "description": "- Cloudflare lance un CMS. Le spécialiste du CDN a dévoilé le 1er avril un CMS open source (sous licence MIT) nommé EmDash. (...)",
+        "date": "Date inconnue",
+        "resume": "Telex : Cloudflare lance un CMS, Anthropic rachète Coefficient Bio, Google publie les modèles ouverts Gemma 4. - Cloudflare lance un CMS. Le spécialiste du CDN a dévoilé le 1er avril un CMS open sourc..."
+      },
+      {
+        "titre": "Pour rédecoller, Bull recrute 500 personnes en 2026",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-pour-redecoller-bull-recrute-500-personnes-en-2026-99831.html",
+        "description": "Après deux ans d’incertitude et de tractations, le fleuron informatique historique français Bull renait sous sa propre marque Jusqu’alors (...)",
+        "date": "Date inconnue",
+        "resume": "Pour rédecoller, Bull recrute 500 personnes en 2026. Après deux ans d’incertitude et de tractations, le fleuron informatique historique français Bull renait sous sa propre marque Jusqu’alors (...)..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 14,
     "nom_site": "JDN : Derniers contenus",
     "date_maj": "04/04/2026",
