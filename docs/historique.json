@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 16,
+    "nom_site": "The Cloudflare Blog",
+    "date_maj": "13/04/2026",
+    "articles": [
+      {
+        "titre": "Welcome to Agents Week",
+        "lien": "https://blog.cloudflare.com/welcome-to-agents-week/",
+        "description": "Cloudflare's mission has always been to help build a better Internet. Sometimes that means building for the Internet as it exists. Sometimes it means building for the Internet as it's about to become. \n\nThis week, we're kicking off Agents Week, dedicated to what comes next.",
+        "date": "Sun, 12 Apr 2026 17:01:05 GMT",
+        "resume": "Welcome to Agents Week. Cloudflare's mission has always been to help build a better Internet. Sometimes that means building for the Internet as it exists. Sometimes it means building for the Internet ..."
+      },
+      {
+        "titre": "500 Tbps of capacity: 16 years of scaling our global network",
+        "lien": "https://blog.cloudflare.com/500-tbps-of-capacity/",
+        "description": "Cloudflare’s global network has officially crossed 500 Tbps of external capacity, enough to route more than 20% of the web and absorb the largest DDoS attacks ever recorded.",
+        "date": "Fri, 10 Apr 2026 18:00:05 GMT",
+        "resume": "500 Tbps of capacity: 16 years of scaling our global network. Cloudflare’s global network has officially crossed 500 Tbps of external capacity, enough to route more than 20% of the web and absorb the ..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 15,
     "nom_site": "Toutes les actualités",
     "date_maj": "06/04/2026",
