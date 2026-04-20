@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 17,
+    "nom_site": "The GitHub Blog",
+    "date_maj": "20/04/2026",
+    "articles": [
+      {
+        "titre": "Building an emoji list generator with the GitHub Copilot CLI",
+        "lien": "https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/",
+        "description": "<p>See how we created an emoji list generator during the Rubber Duck Thursday stream.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/building-an-emoji-list-generator-with-the-github-copilot-cli/\">Building an emoji list generator with the GitHub Copilot CLI</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+        "date": "Fri, 17 Apr 2026 18:00:00 +0000",
+        "resume": "Building an emoji list generator with the GitHub Copilot CLI. <p>See how we created an emoji list generator during the Rubber Duck Thursday stream.</p>\n<p>The post <a href=\"https://github.blog/ai-and-..."
+      },
+      {
+        "titre": "Bringing more transparency to GitHub’s status page",
+        "lien": "https://github.blog/news-insights/company-news/bringing-more-transparency-to-githubs-status-page/",
+        "description": "<p>Changes to the status page will provide more specific data, so you'll have better insight into the overall health of the platform.</p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/bringing-more-transparency-to-githubs-status-page/\">Bringing more transparency to GitHub’s status page</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+        "date": "Fri, 17 Apr 2026 16:00:00 +0000",
+        "resume": "Bringing more transparency to GitHub’s status page. <p>Changes to the status page will provide more specific data, so you'll have better insight into the overall health of the platform.</p>\n<p>The pos..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 16,
     "nom_site": "The Cloudflare Blog",
     "date_maj": "13/04/2026",
