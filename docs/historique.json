@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 18,
+    "nom_site": "Silicon.fr",
+    "date_maj": "27/04/2026",
+    "articles": [
+      {
+        "titre": "Cloud de confiance : SAP embarque sur S3NS",
+        "lien": "https://www.silicon.fr/cloud-1370/cloud-de-confiance-sap-embarque-sur-s3ns-226924",
+        "description": "<p>L'éditeur allemand va déployer SAP RISE Private Cloud Edition sur la plateforme PREMI3NS de S3NS, avec Thales comme premier client stratégique.</p>\n<p>The post <a href=\"https://www.silicon.fr/cloud-1370/cloud-de-confiance-sap-embarque-sur-s3ns-226924\">Cloud de confiance : SAP embarque sur S3NS</a> appeared first on <a href=\"https://www.silicon.fr\">Silicon.fr</a>.</p>",
+        "date": "Mon, 27 Apr 2026 10:41:13 +0000",
+        "resume": "Cloud de confiance : SAP embarque sur S3NS. <p>L'éditeur allemand va déployer SAP RISE Private Cloud Edition sur la plateforme PREMI3NS de S3NS, avec Thales comme premier client stratégique.</p>\n<p>Th..."
+      },
+      {
+        "titre": "Cohere et Aleph Alpha : les noces de l’IA souveraine",
+        "lien": "https://www.silicon.fr/business-1367/cohere-et-aleph-alpha-les-noces-de-lia-souveraine-226910",
+        "description": "<p>Le canadien Cohere s'offre l'allemand Aleph Alpha pour créer un champion de l'IA souveraine valorisé quelque 20 milliards $.</p>\n<p>The post <a href=\"https://www.silicon.fr/business-1367/cohere-et-aleph-alpha-les-noces-de-lia-souveraine-226910\">Cohere et Aleph Alpha : les noces de l&rsquo;IA souveraine</a> appeared first on <a href=\"https://www.silicon.fr\">Silicon.fr</a>.</p>",
+        "date": "Fri, 24 Apr 2026 16:49:52 +0000",
+        "resume": "Cohere et Aleph Alpha : les noces de l’IA souveraine. <p>Le canadien Cohere s'offre l'allemand Aleph Alpha pour créer un champion de l'IA souveraine valorisé quelque 20 milliards $.</p>\n<p>The post <a..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 17,
     "nom_site": "The GitHub Blog",
     "date_maj": "20/04/2026",
