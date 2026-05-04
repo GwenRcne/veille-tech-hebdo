@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 19,
+    "nom_site": "TechCrunch",
+    "date_maj": "04/05/2026",
+    "articles": [
+      {
+        "titre": "Ouster’s new color lidar is coming to replace cameras",
+        "lien": "https://techcrunch.com/2026/05/04/ousters-new-color-lidar-is-coming-to-replace-cameras/",
+        "description": "A sensor that can simultaneously capture depth and image data has long been a \"holy grail,\" Ouster CEO Angus Pacala told TechCrunch.",
+        "date": "Mon, 04 May 2026 10:00:00 +0000",
+        "resume": "Ouster’s new color lidar is coming to replace cameras. A sensor that can simultaneously capture depth and image data has long been a \"holy grail,\" Ouster CEO Angus Pacala told TechCrunch...."
+      },
+      {
+        "titre": "Nicolas Sauvage is betting on the boring parts of AI",
+        "lien": "https://techcrunch.com/2026/05/04/nicolas-sauvage-is-betting-on-the-boring-parts-of-ai/",
+        "description": "The portfolio he has assembled since 2019 is dotted with technologies that have become more widely interesting to VCs over the last year:",
+        "date": "Mon, 04 May 2026 07:10:18 +0000",
+        "resume": "Nicolas Sauvage is betting on the boring parts of AI. The portfolio he has assembled since 2019 is dotted with technologies that have become more widely interesting to VCs over the last year:..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 18,
     "nom_site": "Silicon.fr",
     "date_maj": "27/04/2026",
