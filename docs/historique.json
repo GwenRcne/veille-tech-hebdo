@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 20,
+    "nom_site": "JDN : Derniers contenus",
+    "date_maj": "11/05/2026",
+    "articles": [
+      {
+        "titre": "Circulaire du 13 avril 2026 : quand vos prompts intéressent aussi l'autorité judiciaire",
+        "lien": "https://www.journaldunet.com/cybersecurite/1550199-circulaire-du-13-avril-2026-quand-vos-prompts-interessent-aussi-l-autorite-judiciaire/",
+        "description": "<a href=\"https://www.journaldunet.com/cybersecurite/1550199-circulaire-du-13-avril-2026-quand-vos-prompts-interessent-aussi-l-autorite-judiciaire/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/ToQcJhJ_2faLXovg1hWY9_Judnw=/1280x/smart/8d9a9922bb1b472a8aee0bad3d934fa5/user-jdn/39538001-alexandra-iteanu.jpg\" vspace=\"0\" /></a>Accessibles sur réquisition judiciaire, les prompts transmis à un LLM peuvent constituer des preuves pénales. Une circulaire du 13 avril 2026 en systématise le recueil auprès d'OpenAI.",
+        "date": "Mon, 11 May 2026 12:49:53 +0200",
+        "resume": "Circulaire du 13 avril 2026 : quand vos prompts intéressent aussi l'autorité judiciaire. <a href=\"https://www.journaldunet.com/cybersecurite/1550199-circulaire-du-13-avril-2026-quand-vos-prompts-inter..."
+      },
+      {
+        "titre": "IA : comment gérer la main-d'œuvre d'agents autonomes",
+        "lien": "https://www.journaldunet.com/cybersecurite/1550163-de-l-adoption-de-l-ia-a-la-gestion-d-une-veritable-main-d-oeuvre-numerique/",
+        "description": "<a href=\"https://www.journaldunet.com/cybersecurite/1550163-de-l-adoption-de-l-ia-a-la-gestion-d-une-veritable-main-d-oeuvre-numerique/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/aWsihI_zwbHQAKTZRNMbTdD_-vE=/1280x/smart/8ed0588adf3e49a68ac433b9e7bfe9dd/user-jdn/39537940-yves-wattel.jpg\" vspace=\"0\" /></a>L'IA devient une véritable main-d'œuvre d'agents autonomes. Pour éviter les failles de sécurité, les entreprises doivent gérer leurs identités et accès aussi rigoureusement que de vrais employés.",
+        "date": "Mon, 11 May 2026 12:32:59 +0200",
+        "resume": "IA : comment gérer la main-d'œuvre d'agents autonomes. <a href=\"https://www.journaldunet.com/cybersecurite/1550163-de-l-adoption-de-l-ia-a-la-gestion-d-une-veritable-main-d-oeuvre-numerique/\"><img ali..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 19,
     "nom_site": "TechCrunch",
     "date_maj": "04/05/2026",
