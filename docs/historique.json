@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 21,
+    "nom_site": "Toutes les actualités",
+    "date_maj": "18/05/2026",
+    "articles": [
+      {
+        "titre": "L'Etat valorise les projets IA des PME et ETI",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-l-etat-valorise-les-projets-ia-des-pme-et-eti-100179.html",
+        "description": "Le gouvernement veut accélérer l’utilisation de l’intelligence artificielle dans les entreprises françaises. Pour atteindre (...)",
+        "date": "Date inconnue",
+        "resume": "L'Etat valorise les projets IA des PME et ETI. Le gouvernement veut accélérer l’utilisation de l’intelligence artificielle dans les entreprises françaises. Pour atteindre (...)..."
+      },
+      {
+        "titre": "Une faille de gravité 10 activement exploitée dans le SD-WAN Cisco",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-une-faille-de-gravite-10-activement-exploitee-dans-le-sd-wan-cisco-100182.html",
+        "description": "Une vulnérabilité de contournement de l’authentification de gravité maximale affecte les plateformes Catalyst SD-WAN Controller (...)",
+        "date": "Date inconnue",
+        "resume": "Une faille de gravité 10 activement exploitée dans le SD-WAN Cisco. Une vulnérabilité de contournement de l’authentification de gravité maximale affecte les plateformes Catalyst SD-WAN Controller (......"
+      }
+    ]
+  },
+  {
     "numero_semaine": 20,
     "nom_site": "JDN : Derniers contenus",
     "date_maj": "11/05/2026",
