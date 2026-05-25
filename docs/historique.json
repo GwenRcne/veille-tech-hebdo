@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 22,
+    "nom_site": "The Cloudflare Blog",
+    "date_maj": "25/05/2026",
+    "articles": [
+      {
+        "titre": "Announcing Claude Compliance API support with Cloudflare CASB",
+        "lien": "https://blog.cloudflare.com/casb-anthropic-integration/",
+        "description": "Cloudflare now integrates with the Claude Compliance API, so that security teams can monitor Claude Enterprise activity directly in the Cloudflare Dashboard.",
+        "date": "Thu, 21 May 2026 17:00:00 GMT",
+        "resume": "Announcing Claude Compliance API support with Cloudflare CASB. Cloudflare now integrates with the Claude Compliance API, so that security teams can monitor Claude Enterprise activity directly in the C..."
+      },
+      {
+        "titre": "Announcing Claude Managed Agents on Cloudflare",
+        "lien": "https://blog.cloudflare.com/claude-managed-agents/",
+        "description": "Cloudflare has integrated with Anthropic's Claude Managed Agents to provide a fast, isolated execution environment for autonomous code delivery. This means builders can scale agent workflows globally while strictly controlling access to private backends and easily customizing their agent’s tools and runtimes.",
+        "date": "Tue, 19 May 2026 13:00:00 GMT",
+        "resume": "Announcing Claude Managed Agents on Cloudflare. Cloudflare has integrated with Anthropic's Claude Managed Agents to provide a fast, isolated execution environment for autonomous code delivery. This me..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 21,
     "nom_site": "Toutes les actualités",
     "date_maj": "18/05/2026",
