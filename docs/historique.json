@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 23,
+    "nom_site": "The GitHub Blog",
+    "date_maj": "01/06/2026",
+    "articles": [
+      {
+        "titre": "Still a developer. Just outside. Our latest GitHub Shop collection is here.",
+        "lien": "https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here/",
+        "description": "<p>The ESC collection lets you escape the confines of your desk and get out into the sun where good ideas are bound to happen.</p>\n<p>The post <a href=\"https://github.blog/news-insights/company-news/still-a-developer-just-outside-our-latest-github-shop-collection-is-here/\">Still a developer. Just outside. Our latest GitHub Shop collection is here.</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+        "date": "Thu, 28 May 2026 18:18:43 +0000",
+        "resume": "Still a developer. Just outside. Our latest GitHub Shop collection is here.. <p>The ESC collection lets you escape the confines of your desk and get out into the sun where good ideas are bound to happ..."
+      },
+      {
+        "titre": "GitHub for Beginners: Getting started with Git and GitHub in VS Code",
+        "lien": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/",
+        "description": "<p>Discover how to use VS Code to interact with GitHub and maintain your projects.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/\">GitHub for Beginners: Getting started with Git and GitHub in VS Code</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+        "date": "Mon, 25 May 2026 16:00:00 +0000",
+        "resume": "GitHub for Beginners: Getting started with Git and GitHub in VS Code. <p>Discover how to use VS Code to interact with GitHub and maintain your projects.</p>\n<p>The post <a href=\"https://github.blog/de..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 22,
     "nom_site": "The Cloudflare Blog",
     "date_maj": "25/05/2026",
