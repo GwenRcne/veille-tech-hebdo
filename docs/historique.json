@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 25,
+    "nom_site": "TechCrunch",
+    "date_maj": "15/06/2026",
+    "articles": [
+      {
+        "titre": "SpaceX’s biggest-ever IPO just grew to $85.7 billion raised",
+        "lien": "https://techcrunch.com/2026/06/15/spacexs-biggest-ever-ipo-just-grew-to-85-7-billion-raised/",
+        "description": "SpaceX's IPO underwriters maxed out their share purchases, adding to an already historic amount of money raised.",
+        "date": "Mon, 15 Jun 2026 14:45:03 +0000",
+        "resume": "SpaceX’s biggest-ever IPO just grew to $85.7 billion raised. SpaceX's IPO underwriters maxed out their share purchases, adding to an already historic amount of money raised...."
+      },
+      {
+        "titre": "UK unveils sweeping social media ban for users under 16",
+        "lien": "https://techcrunch.com/2026/06/15/uk-unveils-sweeping-social-media-ban-for-users-under-16/",
+        "description": "The ban would apply to a range of social media platforms including Snapchat, TikTok, YouTube, Instagram, Facebook and X.",
+        "date": "Mon, 15 Jun 2026 14:36:56 +0000",
+        "resume": "UK unveils sweeping social media ban for users under 16. The ban would apply to a range of social media platforms including Snapchat, TikTok, YouTube, Instagram, Facebook and X...."
+      }
+    ]
+  },
+  {
     "numero_semaine": 24,
     "nom_site": "Silicon.fr",
     "date_maj": "08/06/2026",
