@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 26,
+    "nom_site": "JDN : Derniers contenus",
+    "date_maj": "22/06/2026",
+    "articles": [
+      {
+        "titre": "Permis de Conduire en France : Comment le Numérique Simplifie les Démarches Administratives",
+        "lien": "https://www.journaldunet.com/management/formation/1551723-permis-de-conduire-en-france-comment-le-numerique-simplifie-les-demarches-administratives/",
+        "description": "<a href=\"https://www.journaldunet.com/management/formation/1551723-permis-de-conduire-en-france-comment-le-numerique-simplifie-les-demarches-administratives/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/3RidWVjHHzDCSdVEU-8CA2V1yb0=/1280x/smart/b717ffbf9ddd4318b4937d6fc0295044/user-jdn/39540543-jean-dubois.jpg\" vspace=\"0\" /></a>Permis de Conduire en France : Comment le Numérique Simplifie les Démarches Administratives",
+        "date": "Mon, 22 Jun 2026 15:01:10 +0200",
+        "resume": "Permis de Conduire en France : Comment le Numérique Simplifie les Démarches Administratives. <a href=\"https://www.journaldunet.com/management/formation/1551723-permis-de-conduire-en-france-comment-le-..."
+      },
+      {
+        "titre": "\"Seul RTE a conduit une évaluation de l'IRN aussi poussée que celle de la Caisse des Dépôts\"",
+        "lien": "https://www.journaldunet.com/cybersecurite/1551753-seuls-la-caisse-des-depots-et-rte-ont-conduit-une-evaluation-de-l-irn-aussi-poussee/",
+        "description": "<a href=\"https://www.journaldunet.com/cybersecurite/1551753-seuls-la-caisse-des-depots-et-rte-ont-conduit-une-evaluation-de-l-irn-aussi-poussee/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/q-9PXnf8NGfS40ZluJlwIP1mMOM=/1280x/smart/24f77ca92e974ab4b69c0808363b92c2/ccmcms-jdn/39540593.jpg\" vspace=\"0\" /></a>Le directeur des risques opérationnels du groupe Caisse des Dépôts, Arnaud Martin, détaille la méthode qu'il a appliquée pour mesurer l'indice de résilience numérique (IRN) qui évalue le degré d'autonomie stratégique des organisations.",
+        "date": "Mon, 22 Jun 2026 14:44:24 +0200",
+        "resume": "\"Seul RTE a conduit une évaluation de l'IRN aussi poussée que celle de la Caisse des Dépôts\". <a href=\"https://www.journaldunet.com/cybersecurite/1551753-seuls-la-caisse-des-depots-et-rte-ont-conduit-..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 25,
     "nom_site": "TechCrunch",
     "date_maj": "15/06/2026",
