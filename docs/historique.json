@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 27,
+    "nom_site": "Toutes les actualités",
+    "date_maj": "29/06/2026",
+    "articles": [
+      {
+        "titre": "Xerox lance ses premiers multifonctions issus du rachat de Lexmark",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-xerox-lance-ses-premiers-multifonctions-issus-du-rachat-de-lexmark-100567.html",
+        "description": "Xerox vient de lancer ses premières imprimantes et multifonctions suite au rachat de Lexmark. Sont concernés plusieurs modèles - C240/C245, (...)",
+        "date": "Date inconnue",
+        "resume": "Xerox lance ses premiers multifonctions issus du rachat de Lexmark. Xerox vient de lancer ses premières imprimantes et multifonctions suite au rachat de Lexmark. Sont concernés plusieurs modèles - C24..."
+      },
+      {
+        "titre": "Microsoft muscle les fonctions IA d'Excel",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-microsoft-muscle-les-fonctions-ia-d-excel-100581.html",
+        "description": "L’intégration de l’IA générative dans Excel s'accélère. Déployé pour tous les utilisateurs (...)",
+        "date": "Date inconnue",
+        "resume": "Microsoft muscle les fonctions IA d'Excel. L’intégration de l’IA générative dans Excel s'accélère. Déployé pour tous les utilisateurs (...)..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 26,
     "nom_site": "JDN : Derniers contenus",
     "date_maj": "22/06/2026",
