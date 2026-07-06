@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 28,
+    "nom_site": "The Cloudflare Blog",
+    "date_maj": "06/07/2026",
+    "articles": [
+      {
+        "titre": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
+        "lien": "https://blog.cloudflare.com/monetization-gateway/",
+        "description": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, with no payments stack of your own to build.",
+        "date": "Wed, 01 Jul 2026 13:00:00 GMT",
+        "resume": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402. We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, datas..."
+      },
+      {
+        "titre": "Content Independence Day, one year on: building the business model for the agentic Internet",
+        "lien": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+        "description": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals and detail the new infrastructure required to support a sustainable web economy.",
+        "date": "Wed, 01 Jul 2026 13:00:00 GMT",
+        "resume": "Content Independence Day, one year on: building the business model for the agentic Internet. One year after declaring Content Independence Day, a dynamic market for monetized content has officially em..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 27,
     "nom_site": "Toutes les actualités",
     "date_maj": "29/06/2026",
