@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 29,
+    "nom_site": "The GitHub Blog",
+    "date_maj": "13/07/2026",
+    "articles": [
+      {
+        "titre": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
+        "lien": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+        "description": "<p>How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/\">Better tools made Copilot code review worse. Here&#8217;s how we actually improved it.</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+        "date": "Fri, 10 Jul 2026 15:57:47 +0000",
+        "resume": "Better tools made Copilot code review worse. Here’s how we actually improved it.. <p>How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agen..."
+      },
+      {
+        "titre": "How GitHub gave every repository a durable owner",
+        "lien": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+        "description": "<p>GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 days, archived the rest, and made ownership the foundation for everything that followed.</p>\n<p>The post <a href=\"https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/\">How GitHub gave every repository a durable owner</a> appeared first on <a href=\"https://github.blog\">The GitHub Blog</a>.</p>",
+        "date": "Thu, 09 Jul 2026 16:29:37 +0000",
+        "resume": "How GitHub gave every repository a durable owner. <p>GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 ..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 28,
     "nom_site": "The Cloudflare Blog",
     "date_maj": "06/07/2026",
