@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 30,
+    "nom_site": "Silicon.fr",
+    "date_maj": "20/07/2026",
+    "articles": [
+      {
+        "titre": "Qui est Moonshot AI, l’éditeur de Kimi ?",
+        "lien": "https://www.silicon.fr/data-ia-1372/qui-est-moonshot-ai-lediteur-de-kimi-228332",
+        "description": "<p>Avec le lancement fracassant de Kimi K3, Moonshot AI agite la planète IA. Retour sur l'origine de cette pépite pékinoise qui veut jouer dans \"la cour des grands\".</p>\n<p>The post <a href=\"https://www.silicon.fr/data-ia-1372/qui-est-moonshot-ai-lediteur-de-kimi-228332\">Qui est Moonshot AI, l&rsquo;éditeur de Kimi ?</a> appeared first on <a href=\"https://www.silicon.fr\">Silicon.fr</a>.</p>",
+        "date": "Fri, 17 Jul 2026 15:32:47 +0000",
+        "resume": "Qui est Moonshot AI, l’éditeur de Kimi ?. <p>Avec le lancement fracassant de Kimi K3, Moonshot AI agite la planète IA. Retour sur l'origine de cette pépite pékinoise qui veut jouer dans \"la cour des g..."
+      },
+      {
+        "titre": "Broadcom vs CISPE : beaucoup de recours, peu d’effets",
+        "lien": "https://www.silicon.fr/cloud-1370/broadcom-cispe-voies-recours-228328",
+        "description": "<p>En deux ans et demi de bataille contre Broadcom, l'association CISPE a multiplié les voies de recours, pour l'heure sans grand effet.</p>\n<p>The post <a href=\"https://www.silicon.fr/cloud-1370/broadcom-cispe-voies-recours-228328\">Broadcom vs CISPE : beaucoup de recours, peu d&rsquo;effets</a> appeared first on <a href=\"https://www.silicon.fr\">Silicon.fr</a>.</p>",
+        "date": "Fri, 17 Jul 2026 13:32:17 +0000",
+        "resume": "Broadcom vs CISPE : beaucoup de recours, peu d’effets. <p>En deux ans et demi de bataille contre Broadcom, l'association CISPE a multiplié les voies de recours, pour l'heure sans grand effet.</p>\n<p>T..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 29,
     "nom_site": "The GitHub Blog",
     "date_maj": "13/07/2026",
