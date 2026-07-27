@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 31,
+    "nom_site": "TechCrunch",
+    "date_maj": "27/07/2026",
+    "articles": [
+      {
+        "titre": "Europe got its own TBPN-style live show, and everyone’s angling for a guest spot",
+        "lien": "https://techcrunch.com/2026/07/27/europe-got-its-own-tbpn-style-live-show-and-its-already-a-hot-spot-on-a-press-tour/",
+        "description": "On Monday, the network announced a $1.6 million seed round from top players in the media ecosystem, including Powerhouse Capital, Axel Springer SE (which owns Business Insider and Politico), the popular media publication LadBible, and angel investors from OpenAI and DeepMind. With this fresh capital, the network is announcing its largest expansion yet.",
+        "date": "Mon, 27 Jul 2026 10:00:00 +0000",
+        "resume": "Europe got its own TBPN-style live show, and everyone’s angling for a guest spot. On Monday, the network announced a $1.6 million seed round from top players in the media ecosystem, including Powerhou..."
+      },
+      {
+        "titre": "Are brain waves the next unlock for physical AI?",
+        "lien": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+        "description": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
+        "date": "Mon, 27 Jul 2026 00:19:14 +0000",
+        "resume": "Are brain waves the next unlock for physical AI?. Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings...."
+      }
+    ]
+  },
+  {
     "numero_semaine": 30,
     "nom_site": "Silicon.fr",
     "date_maj": "20/07/2026",
