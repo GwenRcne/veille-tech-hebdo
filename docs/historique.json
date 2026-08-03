@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 32,
+    "nom_site": "JDN : Derniers contenus",
+    "date_maj": "03/08/2026",
+    "articles": [
+      {
+        "titre": "Vous quittez votre entreprise ? Votre ancien employeur pourrait encore vous réclamer des milliers d'euros",
+        "lien": "https://www.journaldunet.com/management/emploi-cadres/1552865-vous-quittez-votre-entreprise-votre-ancien-employeur-pourrait-encore-vous-reclamer-des-milliers-d-euros-pour-votre-voiture-de-fonction-restituer-son-vehicule-de-fonction-au-moment-de-quitter-l-entreprise-ne-suffit-pas-tou",
+        "description": "<a href=\"https://www.journaldunet.com/management/emploi-cadres/1552865-vous-quittez-votre-entreprise-votre-ancien-employeur-pourrait-encore-vous-reclamer-des-milliers-d-euros-pour-votre-voiture-de-fonction-restituer-son-vehicule-de-fonction-au-moment-de-quitter-l-entreprise-ne-suffit-pas-tou\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/QmUOaHJktZRhXDBxMvVQZLItl7E=/1280x/smart/a5ab45bfbe084dd68e2f850a5a026b7c/user-jdn/39538569-noemie-le-bouard.jpg\" vspace=\"0\" /></a>Après son départ, un salarié peut encore devoir payer le surcoût d'un véhicule de fonction plus cher choisi volontairement, si un avenant clair le prévoit.",
+        "date": "Mon, 03 Aug 2026 09:46:47 +0200",
+        "resume": "Vous quittez votre entreprise ? Votre ancien employeur pourrait encore vous réclamer des milliers d'euros. <a href=\"https://www.journaldunet.com/management/emploi-cadres/1552865-vous-quittez-votre-ent..."
+      },
+      {
+        "titre": "Vers des écosystèmes portuaires et algorithmiques décarbonés",
+        "lien": "https://www.journaldunet.com/mobilites/1552033-vers-des-ecosystemes-portuaires-et-algorithmiques-decarbones/",
+        "description": "<a href=\"https://www.journaldunet.com/mobilites/1552033-vers-des-ecosystemes-portuaires-et-algorithmiques-decarbones/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/va7dHCpkNNhv5h8bPUpPc9cJDe0=/1280x/smart/492c7b2c79e947d798b47ae551578fc8/user-jdn/39528327-gilles-couture.jpg\" vspace=\"0\" /></a>Les jalons stratégiques d'un leadership mondial au service du transport maritime durable et des écosystèmes portuaires et algorithmiques décarbonés.",
+        "date": "Mon, 03 Aug 2026 09:41:03 +0200",
+        "resume": "Vers des écosystèmes portuaires et algorithmiques décarbonés. <a href=\"https://www.journaldunet.com/mobilites/1552033-vers-des-ecosystemes-portuaires-et-algorithmiques-decarbones/\"><img align=\"left\" h..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 31,
     "nom_site": "TechCrunch",
     "date_maj": "27/07/2026",
