@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 33,
+    "nom_site": "Toutes les actualités",
+    "date_maj": "10/08/2026",
+    "articles": [
+      {
+        "titre": "Départs en série de spécialistes de l'IA chez Google",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-departs-en-serie-de-specialistes-de-l-ia-chez-google-100739.html",
+        "description": "Google rebat les cartes au sommet de son activité IA. Le géant américain a annoncé une évolution de la gouvernance de (...)",
+        "date": "Date inconnue",
+        "resume": "Départs en série de spécialistes de l'IA chez Google. Google rebat les cartes au sommet de son activité IA. Le géant américain a annoncé une évolution de la gouvernance de (...)..."
+      },
+      {
+        "titre": "Rubrik s'attaque au défi de la sécurité des agents IA",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-rubrik-s-attaque-au-defi-de-la-securite-des-agents-ia-100738.html",
+        "description": "Selon une étude de Zero Labs, portant sur plus de 1 600 répondants, 86 % des responsables IT et cybersécurité estiment (...)",
+        "date": "Date inconnue",
+        "resume": "Rubrik s'attaque au défi de la sécurité des agents IA. Selon une étude de Zero Labs, portant sur plus de 1 600 répondants, 86 % des responsables IT et cybersécurité estiment (...)..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 32,
     "nom_site": "JDN : Derniers contenus",
     "date_maj": "03/08/2026",
