@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 34,
+    "nom_site": "Cloudflare Blog",
+    "date_maj": "17/08/2026",
+    "articles": [
+      {
+        "titre": "How Cloudflare detects MCP traffic and helps secure it",
+        "lien": "https://blog.cloudflare.com/mcp-security-updates/",
+        "description": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
+        "date": "Fri, 14 Aug 2026 13:12:12 GMT",
+        "resume": "How Cloudflare detects MCP traffic and helps secure it. Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enfor..."
+      },
+      {
+        "titre": "Secure all your internal vibe-coded applications — in one click",
+        "lien": "https://blog.cloudflare.com/workers-protected-by-access/",
+        "description": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
+        "date": "Fri, 14 Aug 2026 13:00:00 GMT",
+        "resume": "Secure all your internal vibe-coded applications — in one click. Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — ro..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 33,
     "nom_site": "Toutes les actualités",
     "date_maj": "10/08/2026",
