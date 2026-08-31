@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 36,
+    "nom_site": "Silicon.fr",
+    "date_maj": "31/08/2026",
+    "articles": [
+      {
+        "titre": "Scribe, ce projet d’État qui a tourné à la faute grave collective",
+        "lien": "https://www.silicon.fr/business-1367/scribe-sanctions-cour-comptes-228860",
+        "description": "<p>La Cour des comptes a condamné, en première instance, 6 personnes ayant contribué au projet Scribe, qui devait aboutir à un logiciel commun police-gendarmerie pour la rédaction des procédures.</p>\n<p>The post <a href=\"https://www.silicon.fr/business-1367/scribe-sanctions-cour-comptes-228860\">Scribe, ce projet d&rsquo;État qui a tourné à la faute grave collective</a> appeared first on <a href=\"https://www.silicon.fr\">Silicon.fr</a>.</p>",
+        "date": "Mon, 31 Aug 2026 15:10:19 +0000",
+        "resume": "Scribe, ce projet d’État qui a tourné à la faute grave collective. <p>La Cour des comptes a condamné, en première instance, 6 personnes ayant contribué au projet Scribe, qui devait aboutir à un logici..."
+      },
+      {
+        "titre": "Comment Cisco a doté ses 90 000 salariés d’un agent IA",
+        "lien": "https://www.silicon.fr/data-ia-1372/comment-cisco-a-dote-ses-90-000-salaries-dun-agent-ia-228872",
+        "description": "<p>Cisco a généralisé à l'ensemble de ses effectifs un agent d'intelligence artificielle baptisé MyAgent.</p>\n<p>The post <a href=\"https://www.silicon.fr/data-ia-1372/comment-cisco-a-dote-ses-90-000-salaries-dun-agent-ia-228872\">Comment Cisco a doté ses 90 000 salariés d&rsquo;un agent IA</a> appeared first on <a href=\"https://www.silicon.fr\">Silicon.fr</a>.</p>",
+        "date": "Mon, 31 Aug 2026 13:22:11 +0000",
+        "resume": "Comment Cisco a doté ses 90 000 salariés d’un agent IA. <p>Cisco a généralisé à l'ensemble de ses effectifs un agent d'intelligence artificielle baptisé MyAgent.</p>\n<p>The post <a href=\"https://www.s..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 35,
     "nom_site": "The GitHub Blog",
     "date_maj": "24/08/2026",
