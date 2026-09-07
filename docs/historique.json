@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 37,
+    "nom_site": "TechCrunch",
+    "date_maj": "07/09/2026",
+    "articles": [
+      {
+        "titre": "Phil Schiller’s App Store exit reportedly driven by wariness over future plans",
+        "lien": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
+        "description": "Schiller reportedly had reservations about new CEO John Ternus' goal of bringing in more recurring revenue from the App Store.",
+        "date": "Sun, 06 Sep 2026 21:41:06 +0000",
+        "resume": "Phil Schiller’s App Store exit reportedly driven by wariness over future plans. Schiller reportedly had reservations about new CEO John Ternus' goal of bringing in more recurring revenue from the App ..."
+      },
+      {
+        "titre": "Authors push back as publishers and agents make claims on Anthropic settlement",
+        "lien": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+        "description": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
+        "date": "Sun, 06 Sep 2026 20:47:37 +0000",
+        "resume": "Authors push back as publishers and agents make claims on Anthropic settlement. Authors say publishers seem to be claiming more than their fair share of settlement payments...."
+      }
+    ]
+  },
+  {
     "numero_semaine": 36,
     "nom_site": "Silicon.fr",
     "date_maj": "31/08/2026",
