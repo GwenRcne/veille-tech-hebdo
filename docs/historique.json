@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 38,
+    "nom_site": "JDN : Derniers contenus",
+    "date_maj": "14/09/2026",
+    "articles": [
+      {
+        "titre": "Hébergement web : le vrai enjeu business que les entreprises sous-estiment",
+        "lien": "https://www.journaldunet.com/cloud/1554829-hebergement-web-le-vrai-enjeu-business-que-les-entreprises-sous-estiment/",
+        "description": "<a href=\"https://www.journaldunet.com/cloud/1554829-hebergement-web-le-vrai-enjeu-business-que-les-entreprises-sous-estiment/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/yDEP9fU6ugJi3ulx7eGpi7J1Izk=/1280x/smart/eba08544c2924380b4754f8346429999/ccmcms-jdn/39543695.jpg\" vspace=\"0\" /></a>Choisir son hébergeur web dépasse la simple comparaison de prix. Disponibilité, réactivité en cas d'incident, coûts sur plusieurs années : un enjeu business trop souvent sous-estimé.",
+        "date": "Mon, 14 Sep 2026 17:04:08 +0200",
+        "resume": "Hébergement web : le vrai enjeu business que les entreprises sous-estiment. <a href=\"https://www.journaldunet.com/cloud/1554829-hebergement-web-le-vrai-enjeu-business-que-les-entreprises-sous-estiment..."
+      },
+      {
+        "titre": "Ransomware : j'ai dirigé trois cellules de crise, l'attaquant n'était jamais le problème",
+        "lien": "https://www.journaldunet.com/cybersecurite/1554779-ransomware-j-ai-dirige-trois-cellules-de-crise-l-attaquant-n-etait-jamais-le-probleme/",
+        "description": "<a href=\"https://www.journaldunet.com/cybersecurite/1554779-ransomware-j-ai-dirige-trois-cellules-de-crise-l-attaquant-n-etait-jamais-le-probleme/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/sNBmnobCViUtylz2pBJmZC6oTnA=/1280x/smart/6cdcaf945197434e81a02239664b7b0d/user-jdn/39531137-christophe-mazzola.png\" vspace=\"0\" /></a>Une demande de rançon à dix millions d'euros, un règlement à un million, et une feuille de route de sécurité remise quelques mois plus tôt sans jamais être exécutée.",
+        "date": "Mon, 14 Sep 2026 15:54:40 +0200",
+        "resume": "Ransomware : j'ai dirigé trois cellules de crise, l'attaquant n'était jamais le problème. <a href=\"https://www.journaldunet.com/cybersecurite/1554779-ransomware-j-ai-dirige-trois-cellules-de-crise-l-a..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 37,
     "nom_site": "TechCrunch",
     "date_maj": "07/09/2026",
