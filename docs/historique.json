@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 39,
+    "nom_site": "Toutes les actualités",
+    "date_maj": "21/09/2026",
+    "articles": [
+      {
+        "titre": "Le Patch Tuesday de septembre provoque des bugs",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-le-patch-tuesday-de-septembre-provoque-des-bugs-100798.html",
+        "description": "La dernière mise à jour de sécurité de Windows 11 connaît plusieurs problèmes. Après avoir publié (...)",
+        "date": "Date inconnue",
+        "resume": "Le Patch Tuesday de septembre provoque des bugs. La dernière mise à jour de sécurité de Windows 11 connaît plusieurs problèmes. Après avoir publié (...)..."
+      },
+      {
+        "titre": "Les chercheurs de Hacktron AI ont utilisé Claude pour pirater OpenAI",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-les-chercheurs-de-hacktron-ai-ont-utilise-claude-pour-pirater-openai-100799.html",
+        "description": "Dans le cadre d'un exercice organisé par OpenAI, des chercheurs de la plateforme de cybersécurité Hacktron AI ont réussi à (...)",
+        "date": "Date inconnue",
+        "resume": "Les chercheurs de Hacktron AI ont utilisé Claude pour pirater OpenAI. Dans le cadre d'un exercice organisé par OpenAI, des chercheurs de la plateforme de cybersécurité Hacktron AI ont réussi à (...)..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 38,
     "nom_site": "JDN : Derniers contenus",
     "date_maj": "14/09/2026",
