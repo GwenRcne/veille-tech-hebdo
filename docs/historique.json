@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 40,
+    "nom_site": "Cloudflare Blog",
+    "date_maj": "28/09/2026",
+    "articles": [
+      {
+        "titre": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+        "lien": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
+        "description": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipeline.",
+        "date": "Mon, 28 Sep 2026 14:51:57 GMT",
+        "resume": "Next.js applications, powered by Vite: introducing Vinext 1.0. Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release bri..."
+      },
+      {
+        "titre": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+        "lien": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+        "description": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
+        "date": "Mon, 28 Sep 2026 14:50:37 GMT",
+        "resume": "Introducing cf: the agentic CLI for the entire Cloudflare API. We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration...."
+      }
+    ]
+  },
+  {
     "numero_semaine": 39,
     "nom_site": "Toutes les actualités",
     "date_maj": "21/09/2026",
