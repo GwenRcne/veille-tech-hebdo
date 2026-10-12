@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 42,
+    "nom_site": "Silicon.fr",
+    "date_maj": "12/10/2026",
+    "articles": [
+      {
+        "titre": "Groupe Bel simule La Vache qui rit avec un jumeau numérique",
+        "lien": "https://www.silicon.fr/data-ia-1372/groupe-bel-simule-la-vache-qui-rit-avec-un-jumeau-numerique-229596",
+        "description": "<p>Dans son usine centenaire de Lons-le-Saunier, le groupe Bel teste avec Dassault Systèmes un modèle virtuel de sa recette phare. L'outil, encore expérimental, doit raccourcir les cycles de développement.</p>\n<p>The post <a href=\"https://www.silicon.fr/data-ia-1372/groupe-bel-simule-la-vache-qui-rit-avec-un-jumeau-numerique-229596\">Groupe Bel simule La Vache qui rit avec un jumeau numérique</a> appeared first on <a href=\"https://www.silicon.fr\">Silicon.fr</a>.</p>",
+        "date": "Mon, 12 Oct 2026 14:12:13 +0000",
+        "resume": "Groupe Bel simule La Vache qui rit avec un jumeau numérique. <p>Dans son usine centenaire de Lons-le-Saunier, le groupe Bel teste avec Dassault Systèmes un modèle virtuel de sa recette phare. L'outil,..."
+      },
+      {
+        "titre": "Ces éditeurs qui jouent la carte du « sans IA »",
+        "lien": "https://www.silicon.fr/data-ia-1372/logiciels-sans-ia-229599",
+        "description": "<p>À divers degrés et pour divers motifs, des éditeurs poussent la logique du « sans IA » sur tout ou partie de leur offre.</p>\n<p>The post <a href=\"https://www.silicon.fr/data-ia-1372/logiciels-sans-ia-229599\">Ces éditeurs qui jouent la carte du « sans IA »</a> appeared first on <a href=\"https://www.silicon.fr\">Silicon.fr</a>.</p>",
+        "date": "Mon, 12 Oct 2026 13:31:41 +0000",
+        "resume": "Ces éditeurs qui jouent la carte du « sans IA ». <p>À divers degrés et pour divers motifs, des éditeurs poussent la logique du « sans IA » sur tout ou partie de leur offre.</p>\n<p>The post <a href=\"ht..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 41,
     "nom_site": "The GitHub Blog",
     "date_maj": "05/10/2026",
