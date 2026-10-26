@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 44,
+    "nom_site": "JDN : Derniers contenus",
+    "date_maj": "26/10/2026",
+    "articles": [
+      {
+        "titre": "Société aux Émirats : le code d'activité, ce détail qui fait refuser les comptes bancaires",
+        "lien": "https://www.journaldunet.com/start-up/1556973-societe-aux-emirats-le-code-d-activite-ce-detail-qui-fait-refuser-les-comptes-bancaires/",
+        "description": "<a href=\"https://www.journaldunet.com/start-up/1556973-societe-aux-emirats-le-code-d-activite-ce-detail-qui-fait-refuser-les-comptes-bancaires/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/RZaWDe1IfUtcal-XkWaZBD3P68s=/1280x/smart/f76713aac8cb4734b1d6c50871757911/user-jdn/39545366-clara-lapage.jpg\" vspace=\"0\" /></a>Une free zone émirienne propose des centaines d'activités, rédigées en anglais. En choisir une au hasard coûte cher : refus bancaire, licence à amender, autorisation en plus...",
+        "date": "Mon, 26 Oct 2026 16:42:01 +0100",
+        "resume": "Société aux Émirats : le code d'activité, ce détail qui fait refuser les comptes bancaires. <a href=\"https://www.journaldunet.com/start-up/1556973-societe-aux-emirats-le-code-d-activite-ce-detail-qui-..."
+      },
+      {
+        "titre": "Data, fidélité, carte cadeau : le trio qui redessine la valeur client",
+        "lien": "https://www.journaldunet.com/retail/1557043-data-fidelite-carte-cadeau-le-trio-qui-redessine-la-valeur-client/",
+        "description": "<a href=\"https://www.journaldunet.com/retail/1557043-data-fidelite-carte-cadeau-le-trio-qui-redessine-la-valeur-client/\"><img align=\"left\" hspace=\"5\" src=\"https://img-0.journaldunet.com/YZzsVGe1zMXLVRW4dNiazlqgQUA=/1280x/smart/74bce4126de44ad28a27bef646bd4023/user-jdn/39545471-berenice-baudoin.jpg\" vspace=\"0\" /></a>Data, fidélité et carte cadeau : trois leviers à orchestrer pour mieux connaître ses clients, renforcer leur engagement et activer, à chaque étape du parcours, les opportunités créatrices de valeur.",
+        "date": "Mon, 26 Oct 2026 16:37:35 +0100",
+        "resume": "Data, fidélité, carte cadeau : le trio qui redessine la valeur client. <a href=\"https://www.journaldunet.com/retail/1557043-data-fidelite-carte-cadeau-le-trio-qui-redessine-la-valeur-client/\"><img ali..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 43,
     "nom_site": "TechCrunch",
     "date_maj": "19/10/2026",
