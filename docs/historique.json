@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 45,
+    "nom_site": "Toutes les actualités",
+    "date_maj": "02/11/2026",
+    "articles": [
+      {
+        "titre": "Oracle veut facturer l'IA à la tâche",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-oracle-veut-facturer-l-ia-a-la-tache-100892.html",
+        "description": "La facturation des logiciels d'entreprise pourrait connaître une nouvelle évolution, Oracle ne veut plus seulement faire payer ses clients (...)",
+        "date": "Date inconnue",
+        "resume": "Oracle veut facturer l'IA à la tâche. La facturation des logiciels d'entreprise pourrait connaître une nouvelle évolution, Oracle ne veut plus seulement faire payer ses clients (...)..."
+      },
+      {
+        "titre": "Binance victime d'un vol de cryptomonnaies de 6,3 Md$",
+        "lien": "https://www.lemondeinformatique.fr/actualites/lire-binance-victime-d-un-vol-de-cryptomonnaies-de-6-3-md%24-100895.html",
+        "description": "Le secteur des cryptomonnaies fait face à l'une des plus importantes crises de sécurité de son histoire. Binance, l'une des principales (...)",
+        "date": "Date inconnue",
+        "resume": "Binance victime d'un vol de cryptomonnaies de 6,3 Md$. Le secteur des cryptomonnaies fait face à l'une des plus importantes crises de sécurité de son histoire. Binance, l'une des principales (...)..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 44,
     "nom_site": "JDN : Derniers contenus",
     "date_maj": "26/10/2026",
