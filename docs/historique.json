@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 46,
+    "nom_site": "Cloudflare Blog",
+    "date_maj": "09/11/2026",
+    "articles": [
+      {
+        "titre": "Launching the Vite Ecosystem Fund",
+        "lien": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+        "description": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+        "date": "Mon, 09 Nov 2026 13:00:00 GMT",
+        "resume": "Launching the Vite Ecosystem Fund. Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack..."
+      },
+      {
+        "titre": "The post-quantum future of web privacy",
+        "lien": "https://blog.cloudflare.com/vole-mole/",
+        "description": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+        "date": "Fri, 06 Nov 2026 14:00:00 GMT",
+        "resume": "The post-quantum future of web privacy. Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these ..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 45,
     "nom_site": "Toutes les actualités",
     "date_maj": "02/11/2026",
