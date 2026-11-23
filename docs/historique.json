@@ -1,5 +1,26 @@
 [
   {
+    "numero_semaine": 48,
+    "nom_site": "Silicon.fr",
+    "date_maj": "23/11/2026",
+    "articles": [
+      {
+        "titre": "Le déploiement de Matrix à la Commission européenne prend corps",
+        "lien": "https://www.silicon.fr/workspace-1376/matrix-element-commission-europeenne-230604",
+        "description": "<p>Bruxelles a finalisé un premier déploiement sur les laptops. Des questions restent en suspens, à commencer par la stratégie de fédération.</p>\n<p>The post <a href=\"https://www.silicon.fr/workspace-1376/matrix-element-commission-europeenne-230604\">Le déploiement de Matrix à la Commission européenne prend corps</a> appeared first on <a href=\"https://www.silicon.fr\">Silicon.fr</a>.</p>",
+        "date": "Fri, 20 Nov 2026 16:39:06 +0000",
+        "resume": "Le déploiement de Matrix à la Commission européenne prend corps. <p>Bruxelles a finalisé un premier déploiement sur les laptops. Des questions restent en suspens, à commencer par la stratégie de fédér..."
+      },
+      {
+        "titre": "Mistral installe son siège Asie-Pacifique à Singapour",
+        "lien": "https://www.silicon.fr/business-1367/mistral-installe-son-siege-asie-pacifique-a-singapour-230607",
+        "description": "<p>L’essentiel Mistral installe son siège pour l’Asie-Pacifique à Singapour, où l’éditeur français entend développer ses activités commerciales et scientifiques. Il cible en particulier les administrations, l’industrie de haute technologie et la robotique, avec une offre d’IA personnalisable et déployable sur les infrastructures des clients. 200 salariés visés en 2027 : Mistral prévoit de plus que </p>\n<p>The post <a href=\"https://www.silicon.fr/business-1367/mistral-installe-son-siege-asie-pacifique-a-singapour-230607\">Mistral installe son siège Asie-Pacifique à Singapour</a> appeared first on <a href=\"https://www.silicon.fr\">Silicon.fr</a>.</p>",
+        "date": "Fri, 20 Nov 2026 15:23:42 +0000",
+        "resume": "Mistral installe son siège Asie-Pacifique à Singapour. <p>L’essentiel Mistral installe son siège pour l’Asie-Pacifique à Singapour, où l’éditeur français entend développer ses activités commerciales e..."
+      }
+    ]
+  },
+  {
     "numero_semaine": 47,
     "nom_site": "The GitHub Blog",
     "date_maj": "16/11/2026",
